@@ -35,7 +35,7 @@
 
 ### Observations and Issues
 
-Although the fine-tuning process produced generally good results, some limitations were observed:
+Although the fine-tuning training process showed good convergence in both training loss and validation loss, some limitations were observed:
 
 * The model occasionally **hallucinated Wikidata entity IDs**, generating invalid or non-existent identifiers.
 * In some cases, the **SPARQL query structure was incorrect**, leading to execution errors.
