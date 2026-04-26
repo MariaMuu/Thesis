@@ -4,7 +4,7 @@
 ### Project Pipeline Overview
 
 1. **Dataset Acquisition**
-   I obtained a large dataset from Kaggle containing natural language questions paired with SPARQL queries targeting the Wikidata and DBpedia knowledge bases.
+   I obtained a large dataset from Kaggle (https://www.kaggle.com/datasets/thedevastator/unlock-smarter-querying-with-lc-quad-2-0) containing natural language questions paired with SPARQL queries targeting the Wikidata and DBpedia knowledge bases.
 
 2. **Data Cleaning and Filtering**
    I preprocessed the dataset by cleaning the data and retaining only:
