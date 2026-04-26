@@ -10,26 +10,36 @@
    I preprocessed the dataset by cleaning the data and retaining only:
 
    * The natural language questions
-   * The corresponding Wikidata answers (SPARQL targets)
+   * The corresponding Wikidata answers (SPARQL queries)
 
-3. **Train/Test Split**
-   The cleaned dataset was split into training and testing sets to evaluate model performance properly and avoid overfitting.
+3. **Prompt Formatting (Chat Structure Design)**
+   I formatted the dataset into a structured chat-style format suitable for fine-tuning. This included adding explicit role-based tokens such as:
 
-4. **Fine-Tuning the Language Model**
-   I fine-tuned GPT-4.1 Mini on the training dataset to learn how to:
+   * `system`, `user`, and `assistant` roles
+   * Proper **prefix and suffix formatting** for each training example
 
-   * Translate natural language questions into correct SPARQL queries
-   * Map entity identifiers accurately within Wikidata
+   This step ensured that each sample followed a consistent conversational structure, improving the model’s ability to generalize to instruction-following behavior.
 
-   The training was performed over **5 epochs**. Prior to training, I used **tiktoken** to estimate token usage and calculate the expected cost of the fine-tuning process.
+4. **Train/Test Split**
+   The formatted dataset was split into training and testing sets to properly evaluate performance and reduce overfitting risk.
+
+5. **Fine-Tuning the Language Model**
+   I fine-tuned GPT-4.1 Mini on the training dataset to enable:
+
+   * Translation of natural language questions into valid SPARQL queries
+   * Accurate mapping of entity identifiers from Wikidata
+
+   The training was run for **5 epochs**. Before starting the process, I used **tiktoken** to estimate token usage and calculate the expected cost of fine-tuning.
 
 ---
 
 ### Observations and Issues
 
-Although the fine-tuning process showed generally good performance, several issues were observed:
+Although the fine-tuning process produced generally good results, some limitations were observed:
 
-* The model occasionally **hallucinated Wikidata IDs**, producing invalid or non-existent entity identifiers.
-* In some cases, the **structure of the generated SPARQL queries was syntactically incorrect**, leading to execution failures.
+* The model occasionally **hallucinated Wikidata entity IDs**, generating invalid or non-existent identifiers.
+* In some cases, the **SPARQL query structure was incorrect**, leading to execution errors.
 
 ---
+
+
