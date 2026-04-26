@@ -1,0 +1,1029 @@
+question,sparql
+What was the capital of the Austrian Empire ?,select distinct ?sbj where { ?sbj wdt:P1376 wd:Q131964 . ?sbj wdt:P31 wd:Q871419 }
+When is {diplomatic relation} of {county seat of} of {Belgrade} ?,SELECT ?answer WHERE { wd:Q3711 wdt:P1376 ?X . ?X wdt:P530 ?answer}
+Which kernel is named after Linux?,select distinct ?obj where { wd:Q388 wdt:P138 ?obj . ?obj wdt:P31 wd:Q9662 }
+"Who is die from of Jean-Claude Duvalier, that has medical findings of abnormal fourth heart sound?",SELECT ?answer WHERE { wd:Q310775 wdt:P509 ?answer . ?answer wdt:P5131 wd:Q55064813}
+Name the antonym of opinion that has see also in the statement.,SELECT ?answer WHERE { wd:Q3962655 wdt:P461 ?answer . ?answer wdt:P1889 wd:Q2684591}
+where is the office held by head of government and head of state of Himachal_Pradesh,SELECT ?ans_1 ?ans_2 WHERE { wd:Q1177 wdt:P1313 ?ans_1 . wd:Q1177 wdt:P35 ?ans_2 }
+What is the other half of the coordinates for the Tagus River whose one half in -1.6975?,"SELECT ?value WHERE { wd:Q14294 p:P625 ?s . ?s ps:P625 ?x filter(contains(?x,'-1.6975')) . ?s pq:P518 ?value}"
+Tell me about the history of sovereign India.,select distinct ?sbj where { ?sbj wdt:P2184 wd:Q133136 . ?sbj wdt:P31 wd:Q3624078 }
+What characters are in Nineteen Eighty-Four?,select distinct ?obj where { wd:Q208460 wdt:P674 ?obj . ?obj wdt:P31 wd:Q3658341 }
+What position does Ólafur Ragnar Grímsson hold that replaces the one of Vigdís Finnbogadóttir?,SELECT ?obj WHERE { wd:Q57284 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q189797 }
+Who competed in the battle of Xerxes?,SELECT ?answer WHERE { wd:Q18217408 wdt:P607 ?X . ?X wdt:P710 ?answer}
+I want to know at what took part of Ralf Schumann?,SELECT ?answer WHERE { wd:Q553279 wdt:P1344 ?X . ?X wdt:P585 ?answer}
+When was Eleftheros Venizelos replaced as Prime Minister of Greece?,SELECT ?value WHERE { wd:Q205545 p:P39 ?s . ?s ps:P39 wd:Q4377230 . ?s pq:P1366 ?value}
+What magazine has the most readers?,select ?ent where { ?ent wdt:P31 wd:Q41298 . ?ent wdt:P4295 ?obj } ORDER BY DESC(?obj)LIMIT 5
+Give me the country where the 20th Century Fox headquarters known as Fox Plaza is located?,SELECT ?value WHERE { wd:Q434841 p:P159 ?s . ?s ps:P159 wd:Q1920322 . ?s pq:P17 ?value}
+What are the feminine/masculine forms in the expressive language of Georg Solti?,SELECT ?answer WHERE { wd:Q128085 wdt:P1412 ?X . ?X wdt:P5109 ?answer}
+Who are the parent organization and the parent club of FC Barcelona?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q7156 wdt:P749 ?ans_1 . wd:Q7156 wdt:P831 ?ans_2 }
+What type of geology of anorthite is monitored by the Vesuvius Observatory during eruptions?,SELECT ?answer WHERE { wd:Q244994 wdt:P2695 ?answer . ?answer wdt:P3815 wd:Q967776}
+Which is the video game series developed by n-Space and starts with the letter r?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q7058673 . ?sbj wdt:P178 wd:Q610952 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'r')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who replaced Aga Khan III as the Islmaili imam?,SELECT ?value WHERE { wd:Q366213 p:P39 ?s . ?s ps:P39 wd:Q38998920 . ?s pq:P1366 ?value}
+What was Cecil Beaton nominated for in 1960?,"SELECT ?obj WHERE { wd:Q697096 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1960')) }"
+What was Emmanuelle Riva nominated for in 2013?,"SELECT ?obj WHERE { wd:Q436996 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2013')) }"
+What subject did Trey Parker major in at University of Colorado Boulder?,SELECT ?value WHERE { wd:Q44414 p:P69 ?s . ?s ps:P69 wd:Q736674 . ?s pq:P812 ?value}
+How many forewords did John Lasseter author?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2679 wd:Q269214 }
+What is the name of a painting created by Rembrandt?,select distinct ?sbj where { ?sbj wdt:P170 wd:Q5598 . ?sbj wdt:P31 wd:Q3305213 }
+who medical specialty for health specialty of diabetes mellitus?,select distinct ?obj where { wd:Q12206 wdt:P1995 ?obj . ?obj wdt:P31 wd:Q930752 }
+Which is {source of inspiration} of {characters} of {The Legend of the 7 Golden Vampires} ?,SELECT ?answer WHERE { wd:Q131842 wdt:P674 ?X . ?X wdt:P941 ?answer}
+For which of her movies Isabelle Adjani also served as an executive producer ?,select distinct ?sbj where { ?sbj wdt:P1431 wd:Q106383 . ?sbj wdt:P31 wd:Q11424 }
+how many are separated from northwest territorires?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P807 wd:Q2007 }
+What is blizzard with the highest amount of snow ?,select ?ent where { ?ent wdt:P31 wd:Q205418 . ?ent wdt:P3036 ?obj } ORDER BY DESC(?obj)LIMIT 5
+when s the {point in time} for {Bank of China} has {owned by} as {National Council for Social Security Fund} ?,SELECT ?value WHERE { wd:Q790068 p:P127 ?s . ?s ps:P127 wd:Q6971896 . ?s pq:P585 ?value}
+Name the collective pseudonym that refers to the Coen brothers.,select distinct ?sbj where { ?sbj wdt:P460 wd:Q56095 . ?sbj wdt:P31 wd:Q16017119 }
+For what work did Ernest Borgnine receive a nomination for Primetime Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie?,SELECT ?value WHERE { wd:Q102551 p:P1411 ?s . ?s ps:P1411 wd:Q945887 . ?s pq:P1686 ?value}
+Who is the winner for family tiles for the comedy series writing?,SELECT ?value WHERE { wd:Q1144624 p:P166 ?s . ?s ps:P166 wd:Q3045762 . ?s pq:P1346 ?value}
+What is the compulsory education and the maximum age of the interpol member?,select ?ent where { ?ent wdt:P31 wd:Q3624078 . ?ent wdt:P3271 ?obj . ?ent wdt:P463 wd:Q8475 } ORDER BY DESC(?obj)LIMIT 5
+Tell me military rankw wose name has the word stabswachtmeister in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q56019 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'stabswachtmeister')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+what is the name of a military academy that starts with the letter e.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q917182 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'é')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When was Adrien Brody nominated for the European Film Award - Jameson People's Choice Award - Best Actor?,SELECT ?value WHERE { wd:Q104514 p:P1411 ?s . ?s ps:P1411 wd:Q5412592 . ?s pq:P585 ?value}
+what is academy that starts with u,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q162633 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'u')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"Also known as Richard Neutra's place of death, in what country is Wuppertail located?",SELECT ?value WHERE { wd:Q84312 p:P20 ?s . ?s ps:P20 wd:Q2107 . ?s pq:P17 ?value}
+for which of his  work Karl Malden received Academy Award for best supporting actor?,SELECT ?value WHERE { wd:Q94992 p:P166 ?s . ?s ps:P166 wd:Q106291 . ?s pq:P1686 ?value}
+What audio language is O Tannenbaum in? The regulatory body is the IDS - Institute for the German Language.,SELECT ?answer WHERE { wd:Q1046985 wdt:P407 ?answer . ?answer wdt:P1018 wd:Q1664834}
+What was Spike Jonze nominated for in the 72nd Academy Awards?,SELECT ?obj WHERE { wd:Q259913 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q429319 }
+Which airport is the hub of Delta Air Lines?,select distinct ?obj where { wd:Q188920 wdt:P113 ?obj . ?obj wdt:P31 wd:Q1248784 }
+What is Ruby in English?,SELECT ?obj WHERE { wd:Q161053 p:P2078 ?s . ?s ps:P2078 ?obj . ?s pq:P407 wd:Q1860 }
+What was the population of Clermont-Ferrand on 1-1-2013?,"SELECT ?obj WHERE { wd:Q42168 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2013')) }"
+How many charges are due to corruption?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1595 wd:Q366 }
+Where did Hilary Putnam receive their Ph.D.?,SELECT ?obj WHERE { wd:Q221697 p:P69 ?s . ?s ps:P69 ?obj . ?s pq:P512 wd:Q752297 }
+Who are the characters of Adam and Eve?,SELECT ?answer WHERE { wd:Q3605055 wdt:P144 ?X . ?X wdt:P674 ?answer}
+When did Chiang Mai become the sister city of Saitama Prefecture?,SELECT ?value WHERE { wd:Q52028 p:P190 ?s . ?s ps:P190 wd:Q128186 . ?s pq:P580 ?value}
+How much of the intended audience is female?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2360 wd:Q467 }
+Who is the organizer for the sport of World Series?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q265538 wdt:P664 ?ans_1 . wd:Q265538 wdt:P641 ?ans_2 }
+Name a trade association that starts with letter A,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q2178147 . ?sbj wdt:P1454 wd:Q48204 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'a')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the biomedical measurand which start with the letter w,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q42014143 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'w')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+WHICH IS THE THROUGH STATION WITH THE MAXIMUM NUMBER OF PLATFORM TRACKS,select ?ent where { ?ent wdt:P31 wd:Q55490 . ?ent wdt:P1103 ?obj } ORDER BY DESC(?obj)LIMIT 5
+What is the coat of arms of lithium's findspot?,SELECT ?answer WHERE { wd:Q568 wdt:P189 ?X . ?X wdt:P237 ?answer}
+Which is the consortium for the member of University of Florida?,select distinct ?obj where { wd:Q501758 wdt:P463 ?obj . ?obj wdt:P31 wd:Q194166 }
+"""Who is the namesake of Van der Waals equation, who died in 1923-3-8?""","SELECT ?answer WHERE { wd:Q254329 wdt:P138 ?answer . ?answer wdt:P570 ?x FILTER(contains(YEAR(?x),'1923'))}"
+Which video game company produced Pong?,select distinct ?sbj where { ?sbj wdt:P1056 wd:Q216293 . ?sbj wdt:P31 wd:Q1137109 }
+"What is the county seat of Polokwane, which was constructed in 1994?","SELECT ?answer WHERE { wd:Q131662 wdt:P1376 ?answer . ?answer wdt:P571 ?x FILTER(contains(YEAR(?x),'1994'))}"
+Name the architectural style pattern of Nocturne: Blue and Silver- Cremorne Lights museum collections,SELECT ?answer WHERE { wd:Q28541853 wdt:P195 ?X . ?X wdt:P149 ?answer}
+What is the parent organization and owner of UNICEF?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q740308 wdt:P749 ?ans_1 . wd:Q740308 wdt:P1830 ?ans_2 }
+Who is the head of Cern ?,select distinct ?obj where { wd:Q42944 wdt:P1037 ?obj . ?obj wdt:P31 wd:Q5 }
+What is the two-part administrative body of Milwaukee known as and where is the location of it's administrative territory.,SELECT ?ans_1 ?ans_2 WHERE { wd:Q37836 wdt:P190 ?ans_1 . wd:Q37836 wdt:P131 ?ans_2 }
+When did Glen Campbell receive a Grammy Hall of Fame award?,SELECT ?value WHERE { wd:Q162667 p:P166 ?s . ?s ps:P166 wd:Q81180 . ?s pq:P585 ?value}
+How many doctoral advisors are determined for Gottfried Wilhelm Leibniz?,SELECT (COUNT(?obj) AS ?value ) { wd:Q9047 wdt:P184 ?obj }
+What is the name of the capital city of South Australia,select distinct ?obj where { wd:Q35715 wdt:P36 ?obj . ?obj wdt:P31 wd:Q515 }
+What royal or noble rank does the head of state of the Kingdom of Mercia hold?,select distinct ?obj where { wd:Q105092 wdt:P1906 ?obj . ?obj wdt:P31 wd:Q355567 }
+Which female actress is the voice over on South Park and is employed as a singer?,SELECT ?answer WHERE { wd:Q16538 wdt:P725 ?answer . ?answer wdt:P106 wd:Q177220}
+who is the  doctoral student   of louis _pasteur?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q529 wdt:P185 ?ans_1 . wd:Q529 wdt:P802 ?ans_2 }
+When did Dominik Hašek become a citizen of Czechoslovakia?,SELECT ?value WHERE { wd:Q312695 p:P27 ?s . ?s ps:P27 wd:Q33946 . ?s pq:P580 ?value}
+Which universe does Star Trek take place?,select distinct ?obj where { wd:Q1092 wdt:P1434 ?obj . ?obj wdt:P31 wd:Q559618 }
+Who replaced Vespasian as Roman emperor?,SELECT ?value WHERE { wd:Q1419 p:P39 ?s . ?s ps:P39 wd:Q842606 . ?s pq:P1365 ?value}
+Where is the National Rifle Association's headquarters located and who is the chief executive?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q863259 wdt:P159 ?ans_1 . wd:Q863259 wdt:P169 ?ans_2 }
+"In what year did Rush Limbaugh's pet, named Punkin, die?",SELECT ?value WHERE { wd:Q319072 p:P1429 ?s . ?s ps:P1429 wd:Q18535182 . ?s pq:P582 ?value}
+who was the spouse of Carl Jung as at 1955-0-0?,"SELECT ?obj WHERE { wd:Q41532 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1955')) }"
+Who was the previous top dog of 1991 Mr. Olympia?,SELECT ?answer WHERE { wd:Q15286320 wdt:P155 ?X . ?X wdt:P1346 ?answer}
+who state of austria for twinned administrative body of bern?,select distinct ?sbj where { ?sbj wdt:P190 wd:Q70 . ?sbj wdt:P31 wd:Q261543 }
+Who started a conflict by overthrowing Idi Amin?,select distinct ?obj where { wd:Q48231 wdt:P607 ?obj . ?obj wdt:P31 wd:Q45382 }
+What is played by the the extended form of the generalized linear model?,SELECT ?answer WHERE { wd:Q1501882 wdt:P144 ?X . ?X wdt:P1535 ?answer}
+Which is {history} of {plays} of {Lenin Guerra Tulcan} ?,SELECT ?answer WHERE { wd:Q27525575 wdt:P641 ?X . ?X wdt:P2184 ?answer}
+"Who replaced William Murray, first Earl of Mansfield, as Chancellor of the Exchequer?",SELECT ?value WHERE { wd:Q869340 p:P39 ?s . ?s ps:P39 wd:Q531471 . ?s pq:P1366 ?value}
+What is the subcellular localization code for Cdc42se2?,SELECT ?answer WHERE { wd:Q18265631 wdt:P688 ?X . ?X wdt:P681 ?answer}
+When did Portsmouth have a population of 248440?,"SELECT ?value WHERE { wd:Q72259 p:P1082 ?s . ?s ps:P1082 ?x filter(contains(?x,'248440')) . ?s pq:P585 ?value}"
+"In 2003-0-0, what was Ole Einar Bjorndalen nominated for?","SELECT ?obj WHERE { wd:Q189408 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2003')) }"
+"What landlocked country that is a member of the United Nations Educational, Scientific and Cultural Organization has the lowest total fertility rate?",select ?ent where { ?ent wdt:P31 wd:Q123480 . ?ent wdt:P4841 ?obj . ?ent wdt:P463 wd:Q7809} ORDER BY ASC(?obj)LIMIT 5
+What is the maximum length of Lake Baikal?,SELECT ?obj WHERE { wd:Q5513 p:P2043 ?s . ?s ps:P2043 ?obj . ?s pq:P518 wd:Q10578722 }
+When did Adunis win the Janus Pannonius International Poetry Prize?,SELECT ?value WHERE { wd:Q380787 p:P166 ?s . ?s ps:P166 wd:Q17550770 . ?s pq:P585 ?value}
+Who is the {academic discipline} for {partially coincident with} of {humanities},select distinct ?sbj where { ?sbj wdt:P1382 wd:Q80083 . ?sbj wdt:P31 wd:Q11862829 }
+Tell me comic book series whose name has the word valentina in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q14406742 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'valentina')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the domain of Scandinavian literature whose working is Swedish?,SELECT ?answer WHERE { wd:Q367092 wdt:P2579 ?answer . ?answer wdt:P2578 wd:Q9027}
+What revolution caused the destruction of the Russian Empire?,select distinct ?obj where { wd:Q34266 wdt:P770 ?obj . ?obj wdt:P31 wd:Q10931 }
+What percentage of Angola's population is European?,SELECT ?value WHERE { wd:Q916 p:P172 ?s . ?s ps:P172 wd:Q394067 . ?s pq:P1107 ?value}
+How did Henry VIII and Catherine Parr's marriage end?,SELECT ?value WHERE { wd:Q38370 p:P26 ?s . ?s ps:P26 wd:Q192943 . ?s pq:P1534 ?value}
+Which prescribed drug for epilepsy has a weight of 221.988?,"SELECT ?answer WHERE { wd:Q41571 wdt:P2176 ?answer . ?answer wdt:P2067 ?x FILTER(contains(?x,'221.988'))}"
+Which of Joachim Murat's Kids wrote language in French?,SELECT ?answer WHERE { wd:Q151173 wdt:P40 ?answer . ?answer wdt:P1412 wd:Q150}
+When will Triple H return to Wrestle Mania?,SELECT ?answer WHERE { wd:Q50805 wdt:P156 ?X . ?X wdt:P161 ?answer}
+What is the forename of John Ames Mitchell that is said to be the same as Jógvan?,SELECT ?answer WHERE { wd:Q6218902 wdt:P735 ?answer . ?answer wdt:P460 wd:Q1715025}
+What is Franklin Pierce's a United States representative electoral district?,SELECT ?value WHERE { wd:Q12312 p:P39 ?s . ?s ps:P39 wd:Q13218630 . ?s pq:P768 ?value}
+The individual who discovered pulsar is in which field of study?,SELECT ?answer WHERE { wd:Q4360 wdt:P61 ?X . ?X wdt:P101 ?answer}
+When did Galeazzo Ciano become the minister of Foreign Affairs of the Kingdom of Italy ?,SELECT ?value WHERE { wd:Q220105 p:P39 ?s . ?s ps:P39 wd:Q26248695 . ?s pq:P580 ?value}
+"What is the name of a platonic solid, which is of the significant works of Euthydemus?",SELECT ?answer WHERE { wd:Q188745 wdt:P138 ?answer . ?answer wdt:P800 wd:Q6499786}
+For what piece of work was Willie Nelson nominated to receive a Grammy Award for Best Country Performance by a Duo or Group with Vocal?,SELECT ?value WHERE { wd:Q206112 p:P1411 ?s . ?s ps:P1411 wd:Q5593784 . ?s pq:P1686 ?value}
+What was the population of Argenteuil in 1856?,"SELECT ?obj WHERE { wd:Q181946 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1856')) }"
+What do you call a citizen of Belgium?,SELECT ?answer WHERE { wd:Q31 wdt:P530 ?X . ?X wdt:P463 ?answer}
+WHAT ARE THE CAT BREED WHOSE NAME HAS THE WORD TOYGER IN IT.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q43577 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'toyger')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the ends that are informed by baroque?,SELECT ?answer WHERE { wd:Q37853 wdt:P737 ?X . ?X wdt:P582 ?answer}
+Tell me  tournament whose name has the word  weltklasse in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q500834 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'weltklasse')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"Who performed Symphony No. 9 for the first time on May 7th, 1824?","SELECT ?value WHERE { wd:Q11989 p:P1191 ?s . ?s ps:P1191 ?x filter(contains(YEAR(?x),'1824')) . ?s pq:P175 ?value}"
+What version is stable version of Tencent QQ?,SELECT ?obj WHERE { wd:Q857640 p:P348 ?s . ?s ps:P348 ?obj . ?s pq:P548 wd:Q2804309 }
+Which city is the capital of England?,select distinct ?obj where { wd:Q179876 wdt:P36 ?obj . ?obj wdt:P31 wd:Q515 }
+What type of award was received by Peter Debye in 1937?,"SELECT ?obj WHERE { wd:Q103835 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1937')) }"
+How many matches did Majed Abdullah play for the Saudi Arabia national football team?,SELECT ?value WHERE { wd:Q446181 p:P54 ?s . ?s ps:P54 wd:Q189723 . ?s pq:P1350 ?value}
+What is the introduction period of Siege of Leningrad?,SELECT ?answer WHERE { wd:Q151860 wdt:P2348 ?X . ?X wdt:P580 ?answer}
+Who is the partner and child of Constantine V?,SELECT ?answer WHERE { wd:Q41635 wdt:P25 ?X . ?X wdt:P26 ?answer}
+For what film did Christopher Nolan receive the nomination for the Academy Award for Best Director?,SELECT ?value WHERE { wd:Q25191 p:P1411 ?s . ?s ps:P1411 wd:Q103360 . ?s pq:P1686 ?value}
+What was the population of the Komi Republic in the year 2016?,"SELECT ?obj WHERE { wd:Q2073 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2016')) }"
+Where are the signs of soman exposure found?,SELECT ?answer WHERE { wd:Q21738185 wdt:P780 ?X . ?X wdt:P927 ?answer}
+how many records were held for  sports event of  kamal ziani?,SELECT ?answer WHERE { wd:Q6355549 wdt:P2416 ?X . ?X wdt:P1000 ?answer}
+WHICH IS THE CITY OF INDONESIA THAT STARTS WITH Y,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q3199141 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'y')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+WHICH IS THE SOCIAL CLASS THAT STARTS WITH Z,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q187588 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who are the founders of Onyanko Club that speak native Japanese?,SELECT ?answer WHERE { wd:Q669430 wdt:P112 ?answer . ?answer wdt:P103 wd:Q5287}
+What is the ideology of party member Nigel Farage?,SELECT ?answer WHERE { wd:Q318471 wdt:P102 ?X . ?X wdt:P1142 ?answer}
+What is the manner and place of death of Dave Mirra?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q3017223 wdt:P1196 ?ans_1 . wd:Q3017223 wdt:P20 ?ans_2 }
+What is the historical language in Guyana?,SELECT ?answer WHERE { wd:Q1516437 wdt:P1269 ?X . ?X wdt:P37 ?answer}
+Which computer network protocol replaced version 4 ?,select distinct ?sbj where { ?sbj wdt:P1365 wd:Q11103 . ?sbj wdt:P31 wd:Q15836568 }
+How many people does Halle have?,SELECT ?answer WHERE { wd:Q2814 wdt:P17 ?X . ?X wdt:P1082 ?answer}
+Tell me town whose name has the word sturovo in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q3957 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'štúrovo')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Name the Privately held company with the minimum total assets whose instance is privately held company?,select ?ent where { ?ent wdt:P31 wd:Q1589009 . ?ent wdt:P2403 ?obj . ?ent wdt:P31 wd:Q1589009. } ORDER BY ASC(?obj)LIMIT 5
+"What communist party's name starts with the letter ""p""?","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q233591 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'p')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+In what field was Artemidorus of Tralleis employed?,SELECT ?answer WHERE { wd:Q11906743 wdt:P106 ?X . ?X wdt:P425 ?answer}
+"When was Fedor Tokarev awarded the Order of Suvorov, 2nd class?",SELECT ?value WHERE { wd:Q535597 p:P166 ?s . ?s ps:P166 wd:Q21292821 . ?s pq:P585 ?value}
+Which player competes in Joan Miro?,SELECT ?answer WHERE { wd:Q152384 wdt:P1344 ?X . ?X wdt:P710 ?answer}
+"What archaeological period starts with the letter ""s""?","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q15401633 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 's')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"For what work, Geena Davis was awarded Academy Award for Best Supporting Actress?",SELECT ?value WHERE { wd:Q280098 p:P166 ?s . ?s ps:P166 wd:Q106301 . ?s pq:P1686 ?value}
+The consequence of this autoimmune disease is?,SELECT ?answer WHERE { wd:Q8084905 wdt:P1542 ?X . ?X wdt:P2293 ?answer}
+What are the protests of the war  that uses the M-84,SELECT ?answer WHERE { wd:Q746774 wdt:P607 ?X . ?X wdt:P710 ?answer}
+What is less than the consequence of sublimation?,SELECT ?answer WHERE { wd:Q131800 wdt:P1542 ?X . ?X wdt:P5136 ?answer}
+Who did Shirley Jackson marry in 1940?,"SELECT ?obj WHERE { wd:Q239910 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1940')) }"
+When did John Searle receive the National Humanities Medal?,SELECT ?value WHERE { wd:Q295012 p:P166 ?s . ?s ps:P166 wd:Q1571938 . ?s pq:P585 ?value}
+Was Tony Curtis nominated for an Academy Award for Best Actor?,SELECT ?value WHERE { wd:Q162389 p:P1411 ?s . ?s ps:P1411 wd:Q103916 . ?s pq:P805 ?value}
+Which part of Saratov ended in 1936-12-4?,"SELECT ?obj WHERE { wd:Q5332 p:P131 ?s . ?s ps:P131 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1936')) }"
+Who is/are the {authors} of {The Man with Two Faces}?,SELECT ?answer WHERE { wd:Q7750132 wdt:P144 ?X . ?X wdt:P50 ?answer}
+What field of career is Frédéric Bolley career?,SELECT ?answer WHERE { wd:Q1432641 wdt:P106 ?X . ?X wdt:P425 ?answer}
+how many bug tracking systems does tencent qq have?,SELECT (COUNT(?obj) AS ?value ) { wd:Q857640 wdt:P1401 ?obj }
+Which is impounded by the remake of Toshka Lakes?,SELECT ?answer WHERE { wd:Q2601819 wdt:P144 ?X . ?X wdt:P4792 ?answer}
+WHO IS INTRODUCED FROM INTERNATIONAL PRACTICAL SHOOTING CONFEDERATION,SELECT ?answer WHERE { wd:Q1666824 wdt:P740 ?X . ?X wdt:P571 ?answer}
+In what borough is the capital of Kolhar?,SELECT ?answer WHERE { wd:Q6427234 wdt:P131 ?X . ?X wdt:P36 ?answer}
+How much tax revenue did Zamboangna collect in 2016?,"SELECT ?obj WHERE { wd:Q1629 p:P3087 ?s . ?s ps:P3087 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2016')) }"
+When did Novak Djokovic become a professional tennis player?,SELECT ?value WHERE { wd:Q5812 p:P106 ?s . ?s ps:P106 wd:Q10833314 . ?s pq:P580 ?value}
+Who is the taxon parent of manatee having a common name as Morfuwch?,"SELECT ?answer WHERE { wd:Q42797 wdt:P171 ?answer . ?answer wdt:P1843 ?x FILTER(contains(?x,'Morfuwch'))}"
+What is the significance of artists of The Beatles' Story?,SELECT ?answer WHERE { wd:Q2304936 wdt:P175 ?X . ?X wdt:P800 ?answer}
+What are the area of mathematics which start with the letter T,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1936384 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"Who is in voivodership of Asyut Governorate, that has diplomatic relations in Russia?",SELECT ?answer WHERE { wd:Q29965 wdt:P131 ?answer . ?answer wdt:P530 wd:Q159}
+Anna Netrebko has how many roles?,SELECT (COUNT(?obj) AS ?value ) { wd:Q78516 wdt:P453 ?obj }
+What is the prescribed drug of the murder method of Tiny Tim?,SELECT ?answer WHERE { wd:Q979347 wdt:P509 ?X . ?X wdt:P2176 ?answer}
+How many people have the given name Andrew?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P735 wd:Q43399 }
+What was the residence of Kurt Weill in the year 1932?,"SELECT ?obj WHERE { wd:Q55004 p:P551 ?s . ?s ps:P551 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1932')) }"
+What are the signs or symptoms of hydrogen sulfide?,SELECT ?answer WHERE { wd:Q170591 wdt:P1542 ?X . ?X wdt:P780 ?answer}
+What newspaper is found in the Russian Empire?,select distinct ?sbj where { ?sbj wdt:P495 wd:Q34266 . ?sbj wdt:P31 wd:Q11032 }
+Who is the voice actor for Futurama,select distinct ?obj where { wd:Q73622 wdt:P725 ?obj . ?obj wdt:P31 wd:Q5 }
+What is made from a source of Triticum spelta?,SELECT ?answer WHERE { wd:Q158767 wdt:P1672 ?X . ?X wdt:P1582 ?answer}
+tell me eonothem name has the word proterozoic in it,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q2669627 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'proterozoic')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What battle did the characters of The Divine Comedy engage in?,SELECT ?answer WHERE { wd:Q40185 wdt:P674 ?X . ?X wdt:P607 ?answer}
+What is someone who creates manga as a profession called,select distinct ?obj where { wd:Q8274 wdt:P3095 ?obj . ?obj wdt:P31 wd:Q28640 }
+"What year did Thomas Young, who was head of governement and Mayor of London, die in?",SELECT ?answer WHERE { wd:Q25820 wdt:P20 ?answer . ?answer wdt:P1313 wd:Q38931}
+Tell me civil war whose name has the word war in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q8465 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'war')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which {exchange} is {developed by} {File Allocation Table} ?,SELECT ?answer WHERE { wd:Q190167 wdt:P178 ?X . ?X wdt:P414 ?answer}
+what is the determination method of Genome-wide genetic association study in amyotrophic lateral sclerosis?,SELECT ?obj WHERE { wd:Q206901 p:P2293 ?s . ?s ps:P2293 ?obj . ?s pq:P459 wd:Q1098876 }
+What is the office of the head of the organization and the seat of the Commonwealth of Nations?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q7785 wdt:P2388 ?ans_1 . wd:Q7785 wdt:P159 ?ans_2 }
+What is the population of Aleppo as determined in the census method?,SELECT ?obj WHERE { wd:Q41183 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P459 wd:Q39825 }
+What is the portrait of Thomas Lawrence's major works?,SELECT ?answer WHERE { wd:Q312096 wdt:P800 ?X . ?X wdt:P180 ?answer}
+"What unit of time starts with ""z""?","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1790144 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Charles the Bald has how many noble titles?,SELECT (COUNT(?obj) AS ?value ) { wd:Q71231 wdt:P97 ?obj }
+Name the endorsement sponsored by Republic of Ireland v Sweden,SELECT ?answer WHERE { wd:Q24201967 wdt:P179 ?X . ?X wdt:P859 ?answer}
+"What is the surname of Keiko Matsuzaka, whose audio language is Japanese?",SELECT ?answer WHERE { wd:Q717819 wdt:P734 ?answer . ?answer wdt:P407 wd:Q5287}
+Jupiter has a parent astronomical body with which G-type main-sequence star?,select distinct ?obj where { wd:Q319 wdt:P397 ?obj . ?obj wdt:P31 wd:Q5864 }
+What is first language of Dirk Nowitzki ?,SELECT ?answer WHERE { wd:Q44068 wdt:P103 ?X . ?X wdt:P2989 ?answer}
+What town is the birthplace of Joseph Greenberg?,SELECT ?answer WHERE { wd:Q309997 wdt:P19 ?X . ?X wdt:P190 ?answer}
+Which is the treatment that treats the medical condition of gold?,SELECT ?answer WHERE { wd:Q897 wdt:P2175 ?X . ?X wdt:P2176 ?answer}
+When was the subsidiaries of Universite de Montreal created?,SELECT ?answer WHERE { wd:Q392189 wdt:P355 ?X . ?X wdt:P571 ?answer}
+Was Percy Bysshe Shelley a citizen of Great Britain?,SELECT ?value WHERE { wd:Q93343 p:P27 ?s . ?s ps:P27 wd:Q161885 . ?s pq:P1534 ?value}
+How many fastest lap times are held by Lewis Hamilton?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P5053 wd:Q9673 }
+Where is the medals of the artist who inspired this of Solaris?,SELECT ?answer WHERE { wd:Q125772 wdt:P1877 ?X . ?X wdt:P166 ?answer}
+What is made by Webby?,SELECT ?answer WHERE { wd:Q922567 wdt:P1441 ?X . ?X wdt:P170 ?answer}
+When did Leon Lai and Gaile Lok marry?,SELECT ?value WHERE { wd:Q16836 p:P26 ?s . ?s ps:P26 wd:Q5517183 . ?s pq:P580 ?value}
+Which is the cadastre commissioned by William the Conqueror?,select distinct ?sbj where { ?sbj wdt:P88 wd:Q37594 . ?sbj wdt:P31 wd:Q191072 }
+Who is the {business} for {founded by} of {Ingvar Kamprad},select distinct ?sbj where { ?sbj wdt:P112 wd:Q216932 . ?sbj wdt:P31 wd:Q4830453 }
+Who is the sister of daddy Abaqa Khan?,SELECT ?answer WHERE { wd:Q223239 wdt:P22 ?X . ?X wdt:P3373 ?answer}
+For what event did Kevin Kuske receive a silver medal during the Olympics?,SELECT ?obj WHERE { wd:Q60490 p:P1344 ?s . ?s ps:P1344 ?obj . ?s pq:P166 wd:Q15889641 }
+What is the prevalence of tuberculosis?,SELECT (COUNT(?obj) AS ?value ) { wd:Q12204 wdt:P1193 ?obj }
+Who is the champion of Frederick Sumner McKay?,SELECT ?answer WHERE { wd:Q24275198 wdt:P166 ?X . ?X wdt:P1346 ?answer}
+When did Mark Rothko become a citizen of the United States?,SELECT ?value WHERE { wd:Q160149 p:P27 ?s . ?s ps:P27 wd:Q30 . ?s pq:P580 ?value}
+What was Julie Harris nominated for in 1976?,"SELECT ?obj WHERE { wd:Q236708 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1976')) }"
+What award did David Geffen receive in the year 1990?,"SELECT ?obj WHERE { wd:Q115055 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1990')) }"
+What is a Devi that starts with the letter v.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q494511 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'v')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the lighthouse range of the Heidenstam lighthouse?,select ?ent where { ?ent wdt:P31 wd:Q10519294 . ?ent wdt:P2929 ?obj . ?ent wdt:P31 wd:Q39715 } ORDER BY DESC(?obj)LIMIT 5
+What is the latest date recorded for Hafez whose date of death was on 1389-0-0?,"SELECT ?value WHERE { wd:Q6240 p:P570 ?s . ?s ps:P570 ?x filter(contains(YEAR(?x),'1389')) . ?s pq:P1326 ?value}"
+Who did Napoleon marry in 1810?,"SELECT ?obj WHERE { wd:Q517 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1810')) }"
+How many out of school children were there in Rafer Johnson's nation?,SELECT ?answer WHERE { wd:Q452605 wdt:P1532 ?X . ?X wdt:P2573 ?answer}
+What is the grammatical gender of the language Andrei Tupolev?,SELECT ?answer WHERE { wd:Q219734 wdt:P1412 ?answer . ?answer wdt:P5109 wd:Q1775415}
+"What is the location of death of Antipater, whose denomination is the denomination in ancient Greece?",SELECT ?answer WHERE { wd:Q204760 wdt:P20 ?answer . ?answer wdt:P140 wd:Q855270}
+"Who is employed by Ernesto Zedillo, who is a member of the Ivy League?",SELECT ?answer WHERE { wd:Q298149 wdt:P108 ?answer . ?answer wdt:P463 wd:Q49113}
+what are realm of the death which start with the letter s,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q443814 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 's')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the regional government of Tasmania,select distinct ?obj where { wd:Q34366 wdt:P797 ?obj . ?obj wdt:P31 wd:Q1802419 }
+Tell me the medication which contains the word verapamil in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q12140 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'verapamil')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the taxation which start with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1964442 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who gave the {notable books} of {written by} of {Aria variata alla maniera italiana} ?,SELECT ?answer WHERE { wd:Q17512776 wdt:P86 ?X . ?X wdt:P800 ?answer}
+What day of the week is preceded by Easter?,SELECT ?answer WHERE { wd:Q14914693 wdt:P155 ?X . ?X wdt:P2894 ?answer}
+What translator is used for editing HTML5?,select distinct ?obj where { wd:Q2053 wdt:P629 ?obj . ?obj wdt:P31 wd:Q17537576 }
+how many  domain of saint  or deity is for saint nicholas ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q44269 wdt:P2925 ?obj }
+Where was the birth place of Grazia Deledda?,SELECT ?answer WHERE { wd:Q7728 wdt:P19 ?X . ?X wdt:P47 ?answer}
+Who was Jonathan Pryce's partner beginning in 1974?,"SELECT ?obj WHERE { wd:Q312702 p:P451 ?s . ?s ps:P451 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1974')) }"
+Who replaced Francis Bacon as Attorney General for England and Wales?,SELECT ?value WHERE { wd:Q37388 p:P39 ?s . ?s ps:P39 wd:Q2631987 . ?s pq:P1365 ?value}
+How many location does astronomical bodies in  {Phobos} ?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P376 wd:Q7547 }
+"Tell me the name of the bank that starts with ""u"".","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q22687 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'u')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When did Vincent Auriol stop being the Minister of Justice?,SELECT ?value WHERE { wd:Q158772 p:P39 ?s . ?s ps:P39 wd:Q17553783 . ?s pq:P582 ?value}
+How many attractions are there in Grenoble?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1444 wd:Q1289 }
+What degree did Katherine Dunham earn at the University of Chicago?,SELECT ?value WHERE { wd:Q272637 p:P69 ?s . ?s ps:P69 wd:Q131252 . ?s pq:P512 ?value}
+How many students are studying in {geology} ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q1069 wdt:P2578 ?obj }
+When did Al-Mansur end his rule as Abbasid Caliph?,SELECT ?value WHERE { wd:Q31066 p:P39 ?s . ?s ps:P39 wd:Q28541943 . ?s pq:P582 ?value}
+Which is typology  language native of Søren Kierkegaard ?,SELECT ?answer WHERE { wd:Q6512 wdt:P103 ?X . ?X wdt:P4132 ?answer}
+Who is Maharashtra's head of government and the head of state?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q1191 wdt:P6 ?ans_1 . wd:Q1191 wdt:P35 ?ans_2 }
+When was George C. Scott nominated for Tony Award for Best Actor in a Play?,SELECT ?value WHERE { wd:Q182450 p:P1411 ?s . ?s ps:P1411 wd:Q1445521 . ?s pq:P585 ?value}
+What was Ancient Egypt;s former dynasty called?,select distinct ?sbj where { ?sbj wdt:P17 wd:Q11768 . ?sbj wdt:P31 wd:Q164950 }
+Name the significance of county of Saskatchewan and has its category of association with Canadian people.,SELECT ?answer WHERE { wd:Q1989 wdt:P131 ?answer . ?answer wdt:P1792 wd:Q6994944}
+What is the Greek letter for PI,select distinct ?obj where { wd:Q167 wdt:P913 ?obj . ?obj wdt:P31 wd:Q19793459 }
+What type of patron was Napoleon?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1962 wd:Q517 }
+Who is the person as secretary general of Social Democratic Party of Germany?,select distinct ?obj where { wd:Q49768 wdt:P3975 ?obj . ?obj wdt:P31 wd:Q5 }
+What is the profession related to set theory?,select distinct ?sbj where { ?sbj wdt:P101 wd:Q12482 . ?sbj wdt:P31 wd:Q5 }
+"what is the source of watercourse of the Fraser River, that has hill range in American Cordillera?",SELECT ?answer WHERE { wd:Q269710 wdt:P885 ?answer . ?answer wdt:P4552 wd:Q605761}
+Who is Gottfried Wilhelm Leibniz's doctor,select distinct ?sbj where { ?sbj wdt:P184 wd:Q9047 . ?sbj wdt:P31 wd:Q5 }
+When was Tom Wolfe awarded with the Dos Passos Prize?,SELECT ?value WHERE { wd:Q216195 p:P166 ?s . ?s ps:P166 wd:Q2439701 . ?s pq:P585 ?value}
+Is Brooklyn that has cities the birth location of Richard E. Bellman?,SELECT ?answer WHERE { wd:Q441199 wdt:P19 ?answer . ?answer wdt:P150 wd:Q18419}
+What is the language spoken in the city which Ronaldinho played sports?,SELECT ?answer WHERE { wd:Q39444 wdt:P1532 ?X . ?X wdt:P443 ?answer}
+"What is the birth palace of Priyanka Chopra,that has 657 as telephone code?","SELECT ?answer WHERE { wd:Q158957 wdt:P19 ?answer . ?answer wdt:P473 ?x FILTER(contains(?x,'657'))}"
+What is the {syllabary} for {writing system} of {Japanese}?,select distinct ?obj where { wd:Q5287 wdt:P282 ?obj . ?obj wdt:P31 wd:Q182133 }
+Which continent did Douglas Adams live in?,SELECT ?answer WHERE { wd:Q42 wdt:P551 ?X . ?X wdt:P30 ?answer}
+When did Michelangelo finish his work in Rome?,SELECT ?value WHERE { wd:Q5592 p:P937 ?s . ?s ps:P937 wd:Q220 . ?s pq:P582 ?value}
+What was the birth name of Ayn Rand?,SELECT (COUNT(?obj) AS ?value ) { wd:Q132524 wdt:P1477 ?obj }
+What was Arthur Penn nominated for at the 12th Annual Tony Awards?,SELECT ?obj WHERE { wd:Q41136 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q4548936 }
+For what work did Gig Young receive an Academy Award for Best Supporting Actor?,SELECT ?value WHERE { wd:Q344758 p:P166 ?s . ?s ps:P166 wd:Q106291 . ?s pq:P1686 ?value}
+"Which city, twinned with Steinhagan, is the place of residence of Esther Vergeer?",SELECT ?answer WHERE { wd:Q259606 wdt:P551 ?answer . ?answer wdt:P190 wd:Q225002}
+How much does Primavera depict?,SELECT (COUNT(?obj) AS ?value ) { wd:Q549847 wdt:P180 ?obj }
+What are the comics character that contributor(s) to the creative work Art Babbitt and which contains the word goofy in their name,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1114461 . ?sbj wdt:P767 wd:Q2420722 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'goofy')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is being {studied} which is {opposite of} of {Soil} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q36133 wdt:P2579 ?ans_1 . wd:Q36133 wdt:P461 ?ans_2 }
+What is the cause of diesel in chisels?,SELECT ?answer WHERE { wd:Q474188 wdt:P618 ?X . ?X wdt:P828 ?answer}
+What is Siggy Flickers Field of work?,SELECT ?answer WHERE { wd:Q15648058 wdt:P106 ?X . ?X wdt:P425 ?answer}
+Whom did Oliver Cromwell get married to?,select distinct ?sbj where { ?sbj wdt:P26 wd:Q44279 . ?sbj wdt:P31 wd:Q5 }
+Mention the position which President of Poland held as a sequence.,SELECT ?answer WHERE { wd:Q1054799 wdt:P155 ?X . ?X wdt:P1308 ?answer}
+How many times has Joseph Barbera been an executive producer?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1431 wd:Q190373 }
+What is Snow White's name,select distinct ?obj where { wd:Q11831 wdt:P674 ?obj . ?obj wdt:P31 wd:Q15632617 }
+Who was the creator of Looney Tunes?,select distinct ?sbj where { ?sbj wdt:P1441 wd:Q622435 . ?sbj wdt:P31 wd:Q28020127 }
+What movie was Twelfth Night based on?,select distinct ?sbj where { ?sbj wdt:P144 wd:Q221211 . ?sbj wdt:P31 wd:Q11424 }
+What is the discography for Justin Timberlake's discography?,select distinct ?obj where { wd:Q43432 wdt:P358 ?obj . ?obj wdt:P31 wd:Q273057 }
+What is the telephone number of Garrison in the MLB?,SELECT ?answer WHERE { wd:Q1163715 wdt:P159 ?X . ?X wdt:P473 ?answer}
+What is the name of the player that competes in Italy in the Eurovision Song Contest in 1963?,SELECT ?answer WHERE { wd:Q6093732 wdt:P1344 ?X . ?X wdt:P710 ?answer}
+What nominations was the Shawshank Redemption up for on 2/14/1995?,"SELECT ?obj WHERE { wd:Q172241 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1995')) }"
+When did Nîmes have Brunswick as its twinned administrative body,SELECT ?value WHERE { wd:Q42807 p:P190 ?s . ?s ps:P190 wd:Q2773 . ?s pq:P580 ?value}
+Who gave the{established by} of {member of} of {Ernest Lawrence} ?,SELECT ?answer WHERE { wd:Q169577 wdt:P463 ?X . ?X wdt:P112 ?answer}
+When was the award received by Santiago calatrava as Gran Cross of the order of james the conoqueror?,SELECT ?value WHERE { wd:Q168482 p:P166 ?s . ?s ps:P166 wd:Q42313279 . ?s pq:P585 ?value}
+Which spot came from the Ebola virus?,SELECT ?answer WHERE { wd:Q51993 wdt:P189 ?X . ?X wdt:P463 ?answer}
+"Tell me me a artistic theme whose name consist of the word ""crucificion"" and whose impenitent thief his characters","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1406161 . ?sbj wdt:P674 wd:Q284623 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'crucifixion')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the dog breed which start with the letter wetterhoun,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q39367 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'wetterhoun')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Tell me the number of superhuman feature or ability in time travel?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2563 wd:Q182154 }
+Who composed Unchained Melody ?,select distinct ?obj where { wd:Q949416 wdt:P86 ?obj . ?obj wdt:P31 wd:Q5 }
+The Soviet Union used what type of weaponry?,select distinct ?sbj where { ?sbj wdt:P495 wd:Q15180 . ?sbj wdt:P31 wd:Q180126 }
+Whose motion picture studio is a part of series of The Stolen Eagle?,SELECT ?answer WHERE { wd:Q3247886 wdt:P179 ?X . ?X wdt:P272 ?answer}
+How many targets do police officers have?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P533 wd:Q384593 }
+Who is the {immunology} {specialist} that {developed} {penicillin}?,SELECT ?answer WHERE { wd:Q12190 wdt:P61 ?answer . ?answer wdt:P101 wd:Q101929}
+Name a food ingredient that starts with letter Z,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q25403900 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Game of Thrones taes place in which fictional universe?,select distinct ?sbj where { ?sbj wdt:P1445 wd:Q23572 . ?sbj wdt:P31 wd:Q559618 }
+On which mission did Neil Armstrong land on the moon?,select distinct ?obj where { wd:Q1615 wdt:P450 ?obj . ?obj wdt:P31 wd:Q495307 }
+Who are the inhabitants of the land of Molise?,SELECT ?answer WHERE { wd:Q1443 wdt:P17 ?X . ?X wdt:P1082 ?answer}
+Name the work location of Augustin-Louis Cauchy that is next to the Baldissero Torinese.,SELECT ?answer WHERE { wd:Q8814 wdt:P937 ?answer . ?answer wdt:P47 wd:Q9024}
+What are the war of national liberation which start with the letter w,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1006311 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'w')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+did vladimir putin perticipate in 1999-12-31?,"SELECT ?obj WHERE { wd:Q7747 p:P1344 ?s . ?s ps:P1344 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1999')) }"
+What is the sexuality of the winner of MTV Video Music Award for Best Male Video?,SELECT ?answer WHERE { wd:Q1064978 wdt:P1346 ?X . ?X wdt:P91 ?answer}
+When did xkcd win the Hugo Award for Best Graphic Story?,SELECT ?value WHERE { wd:Q13915 p:P166 ?s . ?s ps:P166 wd:Q10960478 . ?s pq:P585 ?value}
+Which {history} {subject} of {Ilmar Koppel} ?,SELECT ?answer WHERE { wd:Q4232384 wdt:P101 ?X . ?X wdt:P2184 ?answer}
+Who are the director and director of photography of Fight Club?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q190050 wdt:P344 ?ans_1 . wd:Q190050 wdt:P57 ?ans_2 }
+Which is the building that is commissioned by University of Notre Dame?,select distinct ?sbj where { ?sbj wdt:P88 wd:Q178848 . ?sbj wdt:P31 wd:Q41176 }
+What is apparent magnitude of Messier 106 that is astronomical filter of V band?,SELECT ?obj WHERE { wd:Q4658 p:P1215 ?s . ?s ps:P1215 ?obj . ?s pq:P1227 wd:Q4892529 }
+Tell me cryptocurrency whose name has the word zerocoin in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q13479982 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'zerocoin')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the gene which start with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q7187 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+How many times does carbon-14 decay?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P816 wd:Q840660 }
+What is the first minister of the place of the activity of Richard Russell ?,SELECT ?answer WHERE { wd:Q718415 wdt:P937 ?X . ?X wdt:P6 ?answer}
+what position did Harthacanute hold when he was replaced by Edward the confessor,SELECT ?obj WHERE { wd:Q190091 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1366 wd:Q130005 }
+Which is the constitution which starts with the letter f?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q7755 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'f')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which organizations were involved in the Cold War ?,select distinct ?sbj where { ?sbj wdt:P1344 wd:Q8683 . ?sbj wdt:P31 wd:Q43229 }
+When did René Clair receive the Louis Delluc Prize?,SELECT ?value WHERE { wd:Q55388 p:P166 ?s . ?s ps:P166 wd:Q734335 . ?s pq:P585 ?value}
+When did Austen Chamberlain become a Member of the 36th Parliament of the United Kingdom?,SELECT ?value WHERE { wd:Q188999 p:P39 ?s . ?s ps:P39 wd:Q41582591 . ?s pq:P580 ?value}
+what us the protype aircraft model with the lowest wingspan whose series is douglas M?,select ?ent where { ?ent wdt:P31 wd:Q15126161 . ?ent wdt:P2050 ?obj . ?ent wdt:P179 wd:Q3714634} ORDER BY ASC(?obj)LIMIT 5
+Who is {disciple} and {professional partner} of {Radka Kovaříková} ?,SELECT ?answer WHERE { wd:Q459898 wdt:P1327 ?X . ?X wdt:P1066 ?answer}
+What is the filmography and discography of Kylie Minogue?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q11998 wdt:P1283 ?ans_1 . wd:Q11998 wdt:P358 ?ans_2 }
+na,SELECT ?answer WHERE { wd:Q4712 wdt:P36 ?X . ?X wdt:P6 ?answer}
+What was Rick Baker nominated for for Coming to America?,SELECT ?obj WHERE { wd:Q495321 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P1686 wd:Q493755 }
+What model is used for genetic sudies?,select distinct ?obj where { wd:Q7162 wdt:P2578 ?obj . ?obj wdt:P31 wd:Q193946 }
+How are Stanisław August Poniatowski and Józef Poniatowski related?,SELECT ?value WHERE { wd:Q54019 p:P1038 ?s . ?s ps:P1038 wd:Q154382 . ?s pq:P1039 ?value}
+Who became the chief executive officer of Advanced Micro Devices in 2014?,"SELECT ?obj WHERE { wd:Q128896 p:P169 ?s . ?s ps:P169 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'2014')) }"
+How do you address the head or the supreme authority of Khanka Lake?,SELECT ?answer WHERE { wd:Q201843 wdt:P205 ?X . ?X wdt:P35 ?answer}
+What series did Robert Guillaume play Robert?,SELECT ?value WHERE { wd:Q465442 p:P735 ?s . ?s ps:P735 wd:Q4927937 . ?s pq:P1545 ?value}
+"What nomination was received by Kurt Weill, but won by Ray Heindorf?",SELECT ?answer WHERE { wd:Q55004 wdt:P1411 ?answer . ?answer wdt:P1346 wd:Q713301}
+Who gave the{instrument played} of {play} of {1930 Speedway Northern League} ?,SELECT ?answer WHERE { wd:Q4562689 wdt:P641 ?X . ?X wdt:P2283 ?answer}
+Residents of Venice are called what?,select distinct ?sbj where { ?sbj wdt:P5389 wd:Q641 . ?sbj wdt:P31 wd:Q5 }
+Where was Lujo Brentano a student of Johann von Helferich?,SELECT ?obj WHERE { wd:Q62830 p:P69 ?s . ?s ps:P69 ?obj . ?s pq:P1066 wd:Q5798542 }
+Who is the person as the head of government of Lviv?,select distinct ?obj where { wd:Q36036 wdt:P6 ?obj . ?obj wdt:P31 wd:Q5 }
+What head of government of Cape Town started 05-12-2009?,"SELECT ?obj WHERE { wd:Q1185115 p:P6 ?s . ?s ps:P6 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'2009')) }"
+What award did Ayana Hirsi Ali receive in 2008?,"SELECT ?obj WHERE { wd:Q214475 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2008')) }"
+Name a {land-grant university} that {affiliation} {Purdue University system} and which that starts with {'p'},"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q615150 . ?sbj wdt:P1416 wd:Q929715 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'p')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who is the leader of the Robert A. Heinlein award?,SELECT ?answer WHERE { wd:Q123078 wdt:P166 ?X . ?X wdt:P1346 ?answer}
+what are the fossil taxon was starts with z,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q23038290 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the area of engineering which start with the letter s,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q12015335 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'engineering')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Rudolf Augstein competed for what office that he holds?,SELECT ?answer WHERE { wd:Q62414 wdt:P39 ?X . ?X wdt:P1344 ?answer}
+Name the primary bacterial infectious disease with the shortest incubation time in humans?,select ?ent where { ?ent wdt:P31 wd:Q12136 . ?ent wdt:P3488 ?obj . ?ent wdt:P279 wd:Q18553247} ORDER BY ASC(?obj)LIMIT 5
+Who is incumbent of the position of William Jennings Bryan ?,SELECT ?answer WHERE { wd:Q205282 wdt:P39 ?X . ?X wdt:P1308 ?answer}
+What re the materials used to make a submarine and what is its source of energy?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q2811 wdt:P186 ?ans_1 . wd:Q2811 wdt:P618 ?ans_2 }
+Which is the borough in the United Kingdom that contains the administrative territorial entity of Norfolk?,select distinct ?obj where { wd:Q23109 wdt:P150 ?obj . ?obj wdt:P31 wd:Q1006876 }
+What is Charles Dickens most acclaimed workk?,select distinct ?obj where { wd:Q5686 wdt:P800 ?obj . ?obj wdt:P31 wd:Q7725634 }
+What was the name of the position held by François Mitterrand as member of the French National Assembly?,SELECT ?value WHERE { wd:Q2038 p:P39 ?s . ?s ps:P39 wd:Q3044918 . ?s pq:P2937 ?value}
+In what mountain range is Mt. Anhui located?,SELECT ?answer WHERE { wd:Q40956 wdt:P610 ?X . ?X wdt:P4552 ?answer}
+Apollo 13 was nominated for and won which awards?,SELECT ?answer WHERE { wd:Q106428 wdt:P1411 ?X . ?X wdt:P1346 ?answer}
+"Tell me about the French head of state, Emmanuel Macron.",select distinct ?sbj where { ?sbj wdt:P35 wd:Q3052772 . ?sbj wdt:P31 wd:Q1450662 }
+Name the character role played by Bobby Ewing as a cast memeber of Dallas?,SELECT ?obj WHERE { wd:Q168708 p:P161 ?s . ?s ps:P161 ?obj . ?s pq:P453 wd:Q2090662 }
+Which is the digital distribution platform that uses the Japanese language?,select distinct ?sbj where { ?sbj wdt:P2936 wd:Q5287 . ?sbj wdt:P31 wd:Q19307174 }
+how many authors have there been for the new testament?,SELECT (COUNT(?obj) AS ?value ) { wd:Q18813 wdt:P50 ?obj }
+What number month of the year is December?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2922 wd:Q126 }
+What are the doll which start with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q168658 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the position of Thomas Jefferson that is by Benjamin Franklin?,SELECT ?obj WHERE { wd:Q11812 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q34969 }
+"""Which is {county seat} of {Kalimantan Barat}, whose {surface} is {107.8} ?""","SELECT ?answer WHERE { wd:Q3916 wdt:P36 ?answer . ?answer wdt:P2046 ?x FILTER(contains(?x,'107.8'))}"
+Does Iullus Antonius have a father and brother?,SELECT ?answer WHERE { wd:Q460160 wdt:P3373 ?X . ?X wdt:P22 ?answer}
+What is the native language of the Circassians?,SELECT (COUNT(?obj) AS ?value ) { wd:Q15763 wdt:P103 ?obj }
+Who replaced Pius XII as the Camerlengo of the Sacred College of Cardinals?,SELECT ?value WHERE { wd:Q2604 p:P39 ?s . ?s ps:P39 wd:Q1813197 . ?s pq:P1365 ?value}
+What religion does the sister of Basil of Caesarea follow?,SELECT ?answer WHERE { wd:Q44258 wdt:P3373 ?X . ?X wdt:P140 ?answer}
+How many military branches are with the Erwin Rommel} ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q14060 wdt:P241 ?obj }
+"Who did Greer Garson marry on January 1, 1943?","SELECT ?obj WHERE { wd:Q182486 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1943')) }"
+When did Rowan Atkinson attend the Queen's College?,SELECT ?value WHERE { wd:Q23760 p:P69 ?s . ?s ps:P69 wd:Q73094 . ?s pq:P580 ?value}
+What is the motor yacht with the highest gross tonnage whose instance of is motor yacht ?,select ?ent where { ?ent wdt:P31 wd:Q21505397 . ?ent wdt:P1093 ?obj . ?ent wdt:P31 wd:Q21505397 } ORDER BY DESC(?obj)LIMIT 5
+What is in the territory of Bakhtiarov?,SELECT ?answer WHERE { wd:Q32430713 wdt:P131 ?X . ?X wdt:P706 ?answer}
+Which is in the endemism of Reunion Stonechat,SELECT ?answer WHERE { wd:Q1587222 wdt:P183 ?X . ?X wdt:P706 ?answer}
+How many executive producers are there on The West Wing?,SELECT (COUNT(?obj) AS ?value ) { wd:Q3577037 wdt:P1431 ?obj }
+"Where did Hugo Pratt move from on August 20, 1995?","SELECT ?obj WHERE { wd:Q12113 p:P551 ?s . ?s ps:P551 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1995')) }"
+For what Juan Antonio Samarnch held the position in the year 1973?,"SELECT ?obj WHERE { wd:Q171166 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1973')) }"
+What country was Józef Piłsudski a citizen of at the start of 1918?,"SELECT ?obj WHERE { wd:Q885 p:P27 ?s . ?s ps:P27 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1918')) }"
+In what part of the Netherlands is the Erasmus University Rotterdam headquartered?,SELECT ?obj WHERE { wd:Q633529 p:P159 ?s . ?s ps:P159 ?obj . ?s pq:P17 wd:Q55 }
+Who did the illustrations for the J. R. R. Tolkien's written works?,select distinct ?sbj where { ?sbj wdt:P110 wd:Q892 . ?sbj wdt:P31 wd:Q47461344 }
+who is the discography and filmography of Clint_Eastwood?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q43203 wdt:P358 ?ans_1 . wd:Q43203 wdt:P1283 ?ans_2 }
+What painter of Maoism died in Zhongnanhai?,SELECT ?answer WHERE { wd:Q167651 wdt:P170 ?answer . ?answer wdt:P20 wd:Q197889}
+Which public company has the largest number of registered users/contributors?,select ?ent where { ?ent wdt:P31 wd:Q891723 . ?ent wdt:P1833 ?obj } ORDER BY DESC(?obj)LIMIT 5
+who is inspiration to son of ben?,SELECT ?answer WHERE { wd:Q24517056 wdt:P25 ?X . ?X wdt:P941 ?answer}
+Tell me the bell tower that starts with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q200334 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who was Erich Maria Remarque's spouse from 1925-0-0 onward?,"SELECT ?obj WHERE { wd:Q47293 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1925')) }"
+Who was Johnny Depp's partner until 1993?,"SELECT ?obj WHERE { wd:Q37175 p:P451 ?s . ?s ps:P451 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1993')) }"
+How many nicknames does Louisiana have?,SELECT (COUNT(?obj) AS ?value ) { wd:Q1588 wdt:P1449 ?obj }
+Name the shipwreck with highest beam?,select ?ent where { ?ent wdt:P31 wd:Q852190 . ?ent wdt:P2261 ?obj } ORDER BY DESC(?obj)LIMIT 5
+What church building was constructed by Dutch East India Company?,select distinct ?sbj where { ?sbj wdt:P176 wd:Q159766 . ?sbj wdt:P31 wd:Q16970 }
+What is manufactured NEC PC-9800 series whose sector is electronics?,SELECT ?answer WHERE { wd:Q183505 wdt:P176 ?answer . ?answer wdt:P452 wd:Q11650}
+Which co-founder works for Christine Jones?,SELECT ?answer WHERE { wd:Q5111073 wdt:P108 ?X . ?X wdt:P112 ?answer}
+What continent is East Asia located in?,select distinct ?obj where { wd:Q27231 wdt:P30 ?obj . ?obj wdt:P31 wd:Q5107 }
+when did richard owen receive the wollaston medal award?,SELECT ?value WHERE { wd:Q151556 p:P166 ?s . ?s ps:P166 wd:Q832424 . ?s pq:P585 ?value}
+What are the painting technique which start with the letter w,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1231896 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'w')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What day of the week is Labour day?,SELECT ?answer WHERE { wd:Q10901070 wdt:P837 ?X . ?X wdt:P2894 ?answer}
+What is the NFPA Health safety classification and labeling of formic acid according to the NFPA 704: Standard System for the Identification of the Hazards of Materials for Emergency Response?,SELECT ?value WHERE { wd:Q161233 p:P4952 ?s . ?s ps:P4952 wd:Q51139288 . ?s pq:P993 ?value}
+How many artists made the storyboards for The Lion King?,SELECT (COUNT(?obj) AS ?value ) { wd:Q36479 wdt:P3275 ?obj }
+Name the G type main sequence star with the largest diameter and 333508 Voiture.,select ?ent where { ?ent wdt:P31 wd:Q5864 . ?ent wdt:P5348 ?obj . ?ent wdt:P398 wd:Q21099874 } ORDER BY DESC(?obj)LIMIT 5
+How is bipolar disorder diagnosed for with the WSCD2 gene?,SELECT ?value WHERE { wd:Q131755 p:P2293 ?s . ?s ps:P2293 wd:Q18034568 . ?s pq:P459 ?value}
+What chemical substance is named after sperm whales?,select distinct ?obj where { wd:Q81214 wdt:P138 ?obj . ?obj wdt:P31 wd:Q79529 }
+"If the point group is cubic-hexoctahedral, what is the space group of spinel?",SELECT ?answer WHERE { wd:Q191310 wdt:P690 ?answer . ?answer wdt:P589 wd:Q13359931}
+When was Irish an official language of the European Union?,SELECT ?value WHERE { wd:Q458 p:P37 ?s . ?s ps:P37 wd:Q9142 . ?s pq:P580 ?value}
+Which is {notation} and the {child astronomical body} of {Sun} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q525 wdt:P913 ?ans_1 . wd:Q525 wdt:P398 ?ans_2 }
+For what work did Poul Anderson receive the Prometheus Award - Hall of Fame?,SELECT ?value WHERE { wd:Q220883 p:P166 ?s . ?s ps:P166 wd:Q19360203 . ?s pq:P1686 ?value}
+"What time does Arthur Cayley, member of the Royal Astronomical Society start?",SELECT ?value WHERE { wd:Q159430 p:P463 ?s . ?s ps:P463 wd:Q753299 . ?s pq:P580 ?value}
+When did Rufina Pukhova and Kim Philby get married?,SELECT ?value WHERE { wd:Q296313 p:P26 ?s . ?s ps:P26 wd:Q7377949 . ?s pq:P580 ?value}
+What genetic association did the Genome-wide association study for melanoma?,SELECT ?obj WHERE { wd:Q180614 p:P2293 ?s . ?s ps:P2293 ?obj . ?s pq:P459 wd:Q1098876 }
+who mortally wounded by of motif of the awakening of Adonis ?,SELECT ?answer WHERE { wd:Q21192371 wdt:P180 ?X . ?X wdt:P157 ?answer}
+Who is the actress in the narrative of Moses?,SELECT ?answer WHERE { wd:Q9077 wdt:P1441 ?X . ?X wdt:P161 ?answer}
+Which is AWLD status of  official language of Mamluk Sultanate.,SELECT ?answer WHERE { wd:Q282428 wdt:P37 ?X . ?X wdt:P1999 ?answer}
+What is {said to be the same as} and the {opposite of} of {0} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q204 wdt:P460 ?ans_1 . wd:Q204 wdt:P461 ?ans_2 }
+What position did Frank B. Kellogg hold starting on 1925-3-5 ?,"SELECT ?obj WHERE { wd:Q193009 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1925')) }"
+What are the art museum which start with the letter wien,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q207694 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'wien')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+How many of the deepest points are in the Persian Gulf?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1589 wd:Q34675 }
+Where did Candice Bergen graduate from and what has she established?,SELECT ?answer WHERE { wd:Q106942 wdt:P69 ?X . ?X wdt:P112 ?answer}
+who were the  memberr  and creater of   green _lantern?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q32884 wdt:P463 ?ans_1 . wd:Q32884 wdt:P170 ?ans_2 }
+Tell me festival whose name has the word vijayadashami  in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q132241 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'vijayadashami')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When did Oscar Robertson receive the All-NBA Team award?,SELECT ?value WHERE { wd:Q17717 p:P166 ?s . ?s ps:P166 wd:Q674359 . ?s pq:P585 ?value}
+Who were the students of Caspar David Friedrich?,SELECT (COUNT(?obj) AS ?value ) { wd:Q104884 wdt:P1066 ?obj }
+"What was the electorate of Muntinlupa on April 28, 2004?","SELECT ?obj WHERE { wd:Q17176 p:P1831 ?s . ?s ps:P1831 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2004')) }"
+How many means of locomotion are powered by bipedalism?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P3512 wd:Q372949 }
+What manufacturer is a subsidiary of the National Aeronautics and Space Administration?,SELECT ?answer WHERE { wd:Q23548 wdt:P355 ?X . ?X wdt:P1056 ?answer}
+Who is the telescope operator for California Institute of Technology,select distinct ?sbj where { ?sbj wdt:P137 wd:Q161562 . ?sbj wdt:P31 wd:Q17004698 }
+When did Smita Patil receive the National Film Award for Best Actress?,SELECT ?value WHERE { wd:Q467960 p:P166 ?s . ?s ps:P166 wd:Q489713 . ?s pq:P585 ?value}
+Which powder has the greatest emissivity?,select ?ent where { ?ent wdt:P31 wd:Q2908004 . ?ent wdt:P1295 ?obj } ORDER BY DESC(?obj)LIMIT 5
+When was the year of death of the coined of boron?,SELECT ?answer WHERE { wd:Q618 wdt:P61 ?X . ?X wdt:P570 ?answer}
+"What is the { award } from { Mario Puzo }, which is the subject of the { 47th Academy Awards }?",SELECT ?value WHERE { wd:Q248837 p:P26 ?s . ?s ps:P26 wd:Q6185913 . ?s pq:P582 ?value}
+When was this ancient Roman sculpture built,select distinct ?sbj where { ?sbj wdt:P2348 wd:Q1747689 . ?sbj wdt:P31 wd:Q860861 }
+Who is the {literary work} for {published in} of {The Jungle Book},select distinct ?sbj where { ?sbj wdt:P1433 wd:Q189509 . ?sbj wdt:P31 wd:Q7725634 }
+Neil Armstrong was the crew member of which moon landing?,select distinct ?sbj where { ?sbj wdt:P1029 wd:Q1615 . ?sbj wdt:P31 wd:Q495307 }
+how many records are done in Los Angeles?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P483 wd:Q65 }
+Is OX the safety classification and labelling of nitrogen trifluoride for NFPA Special?,"SELECT ?obj WHERE { wd:Q413835 p:P4952 ?s . ?s ps:P4952 ?obj . ?s pq:P877 ?x filter(contains(?x,'OX')) }"
+What is the elected office with the longest term length?,select ?ent where { ?ent wdt:P31 wd:Q17279032 . ?ent wdt:P2097 ?obj } ORDER BY DESC(?obj)LIMIT 5
+What is the SoC with minimum clock speed manufactured by Qualcomm Atheros?,select ?ent where { ?ent wdt:P31 wd:Q610398 . ?ent wdt:P2149 ?obj . ?ent wdt:P176 wd:Q1083858} ORDER BY ASC(?obj)LIMIT 5
+Do you know what human incluenced JRR Tolkien?,select distinct ?sbj where { ?sbj wdt:P737 wd:Q892 . ?sbj wdt:P31 wd:Q5 }
+What is the name of the credit institution owned by Walmart?,select distinct ?obj where { wd:Q483551 wdt:P127 ?obj . ?obj wdt:P31 wd:Q730038 }
+What is the partner town of the place from Tomas Cruz Martinez?,SELECT ?answer WHERE { wd:Q17465858 wdt:P937 ?X . ?X wdt:P190 ?answer}
+When did Stanislav Cherchesov start playing for FC Lokomotiv Moscow?,SELECT ?value WHERE { wd:Q699557 p:P54 ?s . ?s ps:P54 wd:Q29115 . ?s pq:P580 ?value}
+1880 was the year Henry Peach Robinson founded what trend?,"SELECT ?answer WHERE { wd:Q574144 wdt:P135 ?answer . ?answer wdt:P571 ?x FILTER(contains(YEAR(?x),'1880'))}"
+"""Who is {famous for} of {Andrea Bocelli}, which has {music genre} is {pop music} ?""",SELECT ?answer WHERE { wd:Q42402 wdt:P800 ?answer . ?answer wdt:P136 wd:Q37073}
+How many residents are in Yekaterinburg?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P551 wd:Q887 }
+Which is the borough of New York City for the category of the associated people of the People from Manhattan and contains the word manhattan in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q408804 . ?sbj wdt:P1792 wd:Q7234769 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'manhattan')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which enterprise is a subsidiary of Cathay Pacific?,select distinct ?sbj where { ?sbj wdt:P355 wd:Q32141 . ?sbj wdt:P31 wd:Q6881511 }
+"What position did Thomas Babington Macaulay, 1st Baron Macaulay hold until 1934-12-29?","SELECT ?obj WHERE { wd:Q315989 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1834')) }"
+"what is the wives of landscape of snake dance, ruth st. denis?",SELECT ?answer WHERE { wd:Q48997623 wdt:P180 ?X . ?X wdt:P26 ?answer}
+What is the Hypertext Transfer Protocol for Garison?,SELECT ?answer WHERE { wd:Q8777 wdt:P1462 ?X . ?X wdt:P159 ?answer}
+What position did F.W. de Klerk replace Alwyn Schelbusch as?,SELECT ?obj WHERE { wd:Q151813 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q449929 }
+"Which county seat of Bridgetown has a member of an African, Caribbean or Pacific Group of States?",SELECT ?answer WHERE { wd:Q36168 wdt:P1376 ?answer . ?answer wdt:P463 wd:Q294278}
+Which is the Wikimedia category of the category for employees of the organization of Harvard University?,select distinct ?obj where { wd:Q13371 wdt:P4195 ?obj . ?obj wdt:P31 wd:Q4167836 }
+Who founded the video game publisher of the game Inca?,SELECT ?answer WHERE { wd:Q3797547 wdt:P123 ?X . ?X wdt:P112 ?answer}
+Who is divorced by Ryan Reynolds in 2011?,"SELECT ?obj WHERE { wd:Q192682 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'2011')) }"
+"""Which is {plays} of {ice skate}, that has {has proponent} is {goaltender} ?""",SELECT ?answer WHERE { wd:Q108640 wdt:P641 ?answer . ?answer wdt:P3095 wd:Q1317534}
+Tell me the end time for Muttiah Muralitharan has a member of sports team as Kent County Cricket Club ?,SELECT ?value WHERE { wd:Q379709 p:P54 ?s . ?s ps:P54 wd:Q3195284 . ?s pq:P582 ?value}
+"Give me a state in Australia that starts with an ""S"" and that celebrates Christmas and other holidays.","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q5852411 . ?sbj wdt:P832 wd:Q19809 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 's')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who is the {illustrator} and the {author} of {The_Chronicles_of_Narnia} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q483412 wdt:P110 ?ans_1 . wd:Q483412 wdt:P50 ?ans_2 }
+What city was New Orleans twinned with in 2012?,"SELECT ?obj WHERE { wd:Q34404 p:P190 ?s . ?s ps:P190 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'2012')) }"
+Who is the child of the sister or the brother of Meketaten?,SELECT ?answer WHERE { wd:Q153648 wdt:P3373 ?X . ?X wdt:P22 ?answer}
+Give me end time for Alexey Leonov has significant event as extra-vehicular activity?,SELECT ?value WHERE { wd:Q154269 p:P793 ?s . ?s ps:P793 wd:Q182020 . ?s pq:P582 ?value}
+Name a building made by the Islamic art of the Emirate and the Caliphate that starts with letter A,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1497375 . ?sbj wdt:P149 wd:Q2864672 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'a')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What was Gregory Peck nominated for at the 18th Academy Awards?,SELECT ?obj WHERE { wd:Q108366 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q917178 }
+David Hilbert was a member of what in 1932?,"SELECT ?obj WHERE { wd:Q41585 p:P463 ?s . ?s ps:P463 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1932')) }"
+Where is the {country of origin} and the {language of work or name} of {The_Hobbit} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q74287 wdt:P495 ?ans_1 . wd:Q74287 wdt:P407 ?ans_2 }
+What is the series that comes before the 37th Venice International Film Festival?,SELECT ?answer WHERE { wd:Q1748253 wdt:P156 ?X . ?X wdt:P179 ?answer}
+How many writing systems are there for Tagalog?,SELECT (COUNT(?obj) AS ?value ) { wd:Q34057 wdt:P282 ?obj }
+What is the Date of birth of Henry I of France?,"SELECT ?value WHERE { wd:Q178908 p:P569 ?s . ?s ps:P569 ?x filter(contains(YEAR(?x),'1008')) . ?s pq:P31 ?value}"
+What is Paul McCartney's language of expression which has англійська as an acronym?,"SELECT ?answer WHERE { wd:Q2599 wdt:P1412 ?answer . ?answer wdt:P1813 ?x FILTER(contains(?x,'англійська'))}"
+Who co-founded the label of Godfather Buried Alive?,SELECT ?answer WHERE { wd:Q10506666 wdt:P264 ?X . ?X wdt:P112 ?answer}
+What is the name of the Dungeons and Dragon's publishing house that was founded in Seattle?,SELECT ?answer WHERE { wd:Q1375 wdt:P123 ?answer . ?answer wdt:P740 wd:Q5083}
+What are the coordinates of the source of the Kasai River?,SELECT ?obj WHERE { wd:Q186541 p:P625 ?s . ?s ps:P625 ?obj . ?s pq:P518 wd:Q7376362 }
+"Who did Edward Teller marry on February 24, 1934?","SELECT ?obj WHERE { wd:Q6733 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1934')) }"
+WHICH IS THE IP NETWORK THAT CONTAINS THE WORD INTERNET IN THEIR NAME,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q11224256 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'internet')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which reservoir has the largest volume?,select ?ent where { ?ent wdt:P31 wd:Q131681 . ?ent wdt:P2234 ?obj } ORDER BY DESC(?obj)LIMIT 5
+For which production was Philippe Noiret the Cesar Award Best Actor nominee?,SELECT ?value WHERE { wd:Q106482 p:P1411 ?s . ?s ps:P1411 wd:Q900494 . ?s pq:P1686 ?value}
+Which Democratic Republic country was involved in the Cuban Missile Crisis?,select distinct ?sbj where { ?sbj wdt:P793 wd:Q128160 . ?sbj wdt:P31 wd:Q5255892 }
+How many software engines are used to play Wolfenstein?,SELECT (COUNT(?obj) AS ?value ) { wd:Q4357563 wdt:P408 ?obj }
+In what fictional universe does the entity Stone Table exist?,SELECT ?answer WHERE { wd:Q2345548 wdt:P1080 ?X . ?X wdt:P1445 ?answer}
+What was Gabriel Marcel nominated for in 1962-1-1?,"SELECT ?obj WHERE { wd:Q154145 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1962')) }"
+How many NLC authorities does Mo Yan have?,SELECT (COUNT(?obj) AS ?value ) { wd:Q8998 wdt:P1213 ?obj }
+Who {established} {label} of {Super Junior} ?,SELECT ?answer WHERE { wd:Q239693 wdt:P264 ?X . ?X wdt:P112 ?answer}
+What is the median lethal dose of acetaldehyde given by subcutaneous injection?,SELECT ?obj WHERE { wd:Q61457 p:P2240 ?s . ?s ps:P2240 ?obj . ?s pq:P636 wd:Q2035485 }
+How many voice actors are credited for Ghost in the Shell?,SELECT (COUNT(?obj) AS ?value ) { wd:Q1066948 wdt:P725 ?obj }
+Who is the {partner} and the {spouse} of {Howard_Stern} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q348603 wdt:P451 ?ans_1 . wd:Q348603 wdt:P26 ?ans_2 }
+Who is the prime minister of Niigata Prefecture who has a career as a politician?,SELECT ?answer WHERE { wd:Q132705 wdt:P6 ?answer . ?answer wdt:P106 wd:Q82955}
+What are the municipalities of the sovereign state of Guarulhos?,SELECT ?answer WHERE { wd:Q184409 wdt:P17 ?X . ?X wdt:P150 ?answer}
+Name an English written daily newspaper that starts with letter T,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1110794 . ?sbj wdt:P407 wd:Q1860 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the parent organization of Nintendo?,select distinct ?sbj where { ?sbj wdt:P749 wd:Q8093 . ?sbj wdt:P31 wd:Q210167 }
+"Thor, how many brothers?",SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P3373 wd:Q42952 }
+Who is the mother and child of Courtney Love?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q222071 wdt:P25 ?ans_1 . wd:Q222071 wdt:P40 ?ans_2 }
+Who preceded Heraclius as the Byzantine emperor?,SELECT ?value WHERE { wd:Q41852 p:P39 ?s . ?s ps:P39 wd:Q18577504 . ?s pq:P1366 ?value}
+"What is an aspect of the history of Iowa, which was formed on December 28, 1846?","SELECT ?answer WHERE { wd:Q5864963 wdt:P1269 ?answer . ?answer wdt:P571 ?x FILTER(contains(YEAR(?x),'1846'))}"
+What is the official name of the star Arp 220?,SELECT ?answer WHERE { wd:Q698547 wdt:P59 ?X . ?X wdt:P1705 ?answer}
+When did the the inventor of the Rosette Nebula die?,SELECT ?answer WHERE { wd:Q108041 wdt:P61 ?X . ?X wdt:P570 ?answer}
+When does daylight saving time begin in Vichy?,SELECT ?obj WHERE { wd:Q93351 p:P421 ?s . ?s ps:P421 ?obj . ?s pq:P1264 wd:Q36669 }
+How many persons are chief of the government in the {Recep Tayyip Erdoğan} ?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P6 wd:Q39259 }
+Which is the talent agency that represents Ronald Reagan?,select distinct ?sbj where { ?sbj wdt:P1268 wd:Q9960 . ?sbj wdt:P31 wd:Q5354754 }
+wich means {Carnegie Classification of Institutions of Higher Education}for{graduated from} at{Lewis Hine} ?,SELECT ?answer WHERE { wd:Q347194 wdt:P69 ?X . ?X wdt:P2643 ?answer}
+When did Isiah Thomas join the NBA All-Rookie Team?,SELECT ?value WHERE { wd:Q298512 p:P166 ?s . ?s ps:P166 wd:Q1418009 . ?s pq:P585 ?value}
+Who is the member of sports team of Roger Milla who died at 1996-1-1?,"SELECT ?obj WHERE { wd:Q168540 p:P54 ?s . ?s ps:P54 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1996')) }"
+How many health specialties are like hematology?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1995 wd:Q103824 }
+Boötes III is located in what part of the constellation?,SELECT ?answer WHERE { wd:Q45975 wdt:P397 ?X . ?X wdt:P59 ?answer}
+What is the taxon present in palm oil?,select distinct ?sbj where { ?sbj wdt:P1672 wd:Q231458 . ?sbj wdt:P31 wd:Q16521 }
+When did Charles Reynolds create typology of used language?,SELECT ?answer WHERE { wd:Q47036527 wdt:P1412 ?X . ?X wdt:P4132 ?answer}
+tell me glucan name has the word zymosan in it,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q416796 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'zymosan')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the sibling of John III Sobieski employed as?,SELECT ?answer WHERE { wd:Q53454 wdt:P3373 ?X . ?X wdt:P106 ?answer}
+Who are between the Battle of Actium with a profession of military personnel?,SELECT ?answer WHERE { wd:Q160387 wdt:P710 ?answer . ?answer wdt:P106 wd:Q47064}
+What is the field of profession for Robert A. Heinlein?,SELECT ?answer WHERE { wd:Q123078 wdt:P106 ?X . ?X wdt:P425 ?answer}
+What pharmaceutical has diazepam in it?,select distinct ?sbj where { ?sbj wdt:P3781 wd:Q210402 . ?sbj wdt:P31 wd:Q28885102 }
+Who is the titleholder of Katharine Hepburn's honours?,SELECT ?answer WHERE { wd:Q56016 wdt:P166 ?X . ?X wdt:P1346 ?answer}
+Who is the publisher and editor of Playboy?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q150820 wdt:P123 ?ans_1 . wd:Q150820 wdt:P98 ?ans_2 }
+which ice hockey tournament starts with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q18325242 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Magnus Carlsen is a part of what sport?,select distinct ?sbj where { ?sbj wdt:P710 wd:Q106807 . ?sbj wdt:P31 wd:Q27020041 }
+Who distributes GTA III?,SELECT (COUNT(?obj) AS ?value ) { wd:Q149106 wdt:P437 ?obj }
+who work of painter of cultural revolution ?,SELECT ?answer WHERE { wd:Q8690 wdt:P170 ?X . ?X wdt:P106 ?answer}
+Tell meduo  whose name has the word roy in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q10648343 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'roy')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who is Lil Wayne's partner and what is his spouse's name?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q15615 wdt:P451 ?ans_1 . wd:Q15615 wdt:P26 ?ans_2 }
+What award did Lars von Trier receive in the year 1996?,"SELECT ?obj WHERE { wd:Q133730 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1996')) }"
+What is the river mouth of Orange River's tributary?,SELECT ?answer WHERE { wd:Q181475 wdt:P403 ?X . ?X wdt:P974 ?answer}
+Which team is owned by Bryan Meredith?,SELECT ?answer WHERE { wd:Q3646130 wdt:P54 ?X . ?X wdt:P127 ?answer}
+What in the sport of college basketball has a running length of 40?,"SELECT ?answer WHERE { wd:Q48890 wdt:P641 ?answer . ?answer wdt:P2047 ?x FILTER(contains(?x,'40'))}"
+What is the population of Zaragoza whose determination method is register office?,SELECT ?obj WHERE { wd:Q10305 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P459 wd:Q745221 }
+Who is the owner of Grumpy Cat?,select distinct ?sbj where { ?sbj wdt:P1429 wd:Q7714263 . ?sbj wdt:P31 wd:Q5 }
+Tell me minor basilica  whose name has the word st in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q120560 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'st')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the holding company owned by Black Rock with the highest total assets?,select ?ent where { ?ent wdt:P31 wd:Q219577 . ?ent wdt:P2403 ?obj . ?ent wdt:P127 wd:Q219635 } ORDER BY DESC(?obj)LIMIT 5
+What colours are of the head office location of BBC World News?,SELECT ?answer WHERE { wd:Q208491 wdt:P159 ?X . ?X wdt:P462 ?answer}
+What is the title in the official language of an employee of Leo Baekeland?,SELECT ?answer WHERE { wd:Q243442 wdt:P108 ?X . ?X wdt:P1705 ?answer}
+For what work did Judy Blume win the Dorothy Canfield Fisher Children's Book Award?,SELECT ?value WHERE { wd:Q441214 p:P166 ?s . ?s ps:P166 wd:Q5298343 . ?s pq:P1686 ?value}
+In what year was Henri Becquerel nominated for a Nobel Prize in Physics?,SELECT ?value WHERE { wd:Q41269 p:P1411 ?s . ?s ps:P1411 wd:Q38104 . ?s pq:P585 ?value}
+What Dilwale Dulhania Le Jayenge award did Kajol win?,SELECT ?obj WHERE { wd:Q849343 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P1346 wd:Q147395 }
+What does the business Minigun produce?,select distinct ?sbj where { ?sbj wdt:P1056 wd:Q864060 . ?sbj wdt:P31 wd:Q4830453 }
+What does deciple Sergey Nikolsky study?,SELECT ?answer WHERE { wd:Q34458 wdt:P802 ?X . ?X wdt:P101 ?answer}
+who chronology of topic of on river of Sumatra ?,SELECT ?answer WHERE { wd:Q3492 wdt:P206 ?X . ?X wdt:P2184 ?answer}
+Who was awarded Primetime Emmy Award for Outstanding Comedy Series together with Larry David?,SELECT ?value WHERE { wd:Q23728 p:P166 ?s . ?s ps:P166 wd:Q2110156 . ?s pq:P1706 ?value}
+Give me the  point in time for Martinique has population as 380877?,"SELECT ?value WHERE { wd:Q17054 p:P1082 ?s . ?s ps:P1082 ?x filter(contains(?x,'380877')) . ?s pq:P585 ?value}"
+who taxon for parent taxon of Cactaceae?,select distinct ?sbj where { ?sbj wdt:P171 wd:Q14560 . ?sbj wdt:P31 wd:Q16521 }
+"What is Paul's deathplace, which his bordered by Formello?",SELECT ?answer WHERE { wd:Q9200 wdt:P20 ?answer . ?answer wdt:P47 wd:Q242645}
+which is located in the administrative territorial entity of Cherkasy Oblast that has start time of 1991-8-24 ?,"SELECT ?obj WHERE { wd:Q161808 p:P131 ?s . ?s ps:P131 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1991')) }"
+Who is antonym  user of associativity ?,SELECT ?answer WHERE { wd:Q177251 wdt:P1535 ?X . ?X wdt:P461 ?answer}
+Tell me about the Louis Armstrong exhibit at the African-American museum.,select distinct ?sbj where { ?sbj wdt:P466 wd:Q1779 . ?sbj wdt:P31 wd:Q54934129 }
+What category of associated people are in Le Mans' twin town?,SELECT ?answer WHERE { wd:Q1476 wdt:P190 ?X . ?X wdt:P1792 ?answer}
+When did Lev Yashin leave FC Dinamo Moscow?,SELECT ?value WHERE { wd:Q167828 p:P54 ?s . ?s ps:P54 wd:Q17497 . ?s pq:P582 ?value}
+Which area in East Midlands is the burial place of Richard Arkwright?,SELECT ?answer WHERE { wd:Q294153 wdt:P119 ?answer . ?answer wdt:P131 wd:Q47994}
+When Inca ended as the head of state at Pachacútec?,SELECT ?value WHERE { wd:Q28573 p:P35 ?s . ?s ps:P35 wd:Q213758 . ?s pq:P582 ?value}
+What are the literary work which start with the letter war,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q7725634 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'war')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What was the population of Arica y Parinacota Region in 2002?,"SELECT ?obj WHERE { wd:Q2109 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2002')) }"
+Give me the end time for MArtina Navratilova as a member of sports team as Czechoslovakia Federation Cup team?,SELECT ?value WHERE { wd:Q54545 p:P54 ?s . ?s ps:P54 wd:Q3590424 . ?s pq:P582 ?value}
+What's the dialect of the Portuguese?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P4913 wd:Q5146 }
+What is the watercolor painting with the  maximum height whose collection is Rijksmuseum?,select ?ent where { ?ent wdt:P31 wd:Q18761202 . ?ent wdt:P2048 ?obj . ?ent wdt:P195 wd:Q190804 } ORDER BY DESC(?obj)LIMIT 5
+What was the population of Caen in 1866?,"SELECT ?obj WHERE { wd:Q41185 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1866')) }"
+What areas are located in or next to a body of water and are located in the time zone of Seoul?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q8684 wdt:P206 ?ans_1 . wd:Q8684 wdt:P421 ?ans_2 }
+Who was divorced to Rupert Murdoch in the year 1967?,"SELECT ?obj WHERE { wd:Q53944 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1967')) }"
+Who is the {city/town} for {place of birth} of {Vladimir Lenin},select distinct ?obj where { wd:Q1394 wdt:P19 ?obj . ?obj wdt:P31 wd:Q7930989 }
+How many degrees are equaling the {master's degree} ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q183816 wdt:P460 ?obj }
+Who is the eponym of Lake Eyre that also is the winner of the Founder's Medal?,SELECT ?answer WHERE { wd:Q179970 wdt:P138 ?answer . ?answer wdt:P166 wd:Q26268774}
+"in the aspect of UK history , what has been the diplomatic relation with Malta ?",SELECT ?answer WHERE { wd:Q113162 wdt:P1269 ?answer . ?answer wdt:P530 wd:Q233}
+"Olga Korbut was born in Grodno, which is located in what country?",SELECT ?value WHERE { wd:Q221575 p:P19 ?s . ?s ps:P19 wd:Q181376 . ?s pq:P17 ?value}
+What are the type of magnets that start with the letter n?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q50002046 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'm')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who is the musical artist of Dr. John Watson that has a forename of Roland?,SELECT ?answer WHERE { wd:Q187349 wdt:P175 ?answer . ?answer wdt:P735 wd:Q1068487}
+Where is the birthplace of Urban VI which is adjacent to San Giorgio a Crremano?,SELECT ?answer WHERE { wd:Q171626 wdt:P19 ?answer . ?answer wdt:P47 wd:Q72497}
+What film is based on a work by Rachel Carson?,select distinct ?sbj where { ?sbj wdt:P1877 wd:Q100948 . ?sbj wdt:P31 wd:Q11424 }
+What is {population} of {Florida} where {point in time} is {1940-0-0} ?,"SELECT ?obj WHERE { wd:Q812 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1940')) }"
+Where did Jacqueline Fernandez go to university?,SELECT ?answer WHERE { wd:Q2312801 wdt:P69 ?X . ?X wdt:P5460 ?answer}
+where is the  business  for  the parent organization of Advanced Micro Device located?,select distinct ?sbj where { ?sbj wdt:P749 wd:Q128896 . ?sbj wdt:P31 wd:Q4830453 }
+When did Ernest Lawrence receive the award for the Comstock Prize in Physics?,SELECT ?value WHERE { wd:Q169577 p:P166 ?s . ?s ps:P166 wd:Q1122821 . ?s pq:P585 ?value}
+What son of Aminah is married to Umm Salama Hind bint Abi Umayya?,SELECT ?answer WHERE { wd:Q257935 wdt:P40 ?answer . ?answer wdt:P26 wd:Q42104}
+What tennis event was won by Margaret Court ?,select distinct ?obj where { wd:Q202342 wdt:P2522 ?obj . ?obj wdt:P31 wd:Q46190676 }
+Which is the historical country that replaces the Maurya Empire?,select distinct ?sbj where { ?sbj wdt:P1365 wd:Q62943 . ?sbj wdt:P31 wd:Q3024240 }
+How many people die in Salt Lake City?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P20 wd:Q23337 }
+What is Tertullian's approximate date of death?,SELECT ?obj WHERE { wd:Q174929 p:P570 ?s . ?s ps:P570 ?obj . ?s pq:P1480 wd:Q5727902 }
+"What is the Christian name of King Arthur, which means the same as Artur?",SELECT ?answer WHERE { wd:Q45792 wdt:P735 ?answer . ?answer wdt:P460 wd:Q4801582}
+"""What is {depiction of} of {Pale Blue Dot}, which has {aphelion} is {1.0} ?""","SELECT ?answer WHERE { wd:Q474472 wdt:P180 ?answer . ?answer wdt:P2243 ?x FILTER(contains(?x,'1.0'))}"
+Who gave the {location of work} of {proprietor} of {Mein Kampf} ?,SELECT ?answer WHERE { wd:Q48244 wdt:P3931 ?X . ?X wdt:P937 ?answer}
+What is the {process} of {construction material} of {Stadshusbron} ?,SELECT ?answer WHERE { wd:Q7596524 wdt:P186 ?X . ?X wdt:P2079 ?answer}
+how many holidays does isreal have?,SELECT (COUNT(?obj) AS ?value ) { wd:Q801 wdt:P832 ?obj }
+What are the estates of the realm which start with the letter p,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q657326 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'p')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What virus genome composes the West Nile fever?,SELECT ?answer WHERE { wd:Q11627066 wdt:P828 ?X . ?X wdt:P4628 ?answer}
+What is the position held by Martín Vizcarra who replaces Marisol Espinoza?,SELECT ?obj WHERE { wd:Q24030720 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q4532785 }
+When did Ken Takakura receive the Person of Cultural Merit award?,SELECT ?value WHERE { wd:Q741184 p:P166 ?s . ?s ps:P166 wd:Q2545449 . ?s pq:P585 ?value}
+Who is the author of The Bell Jar,select distinct ?obj where { wd:Q1213085 wdt:P50 ?obj . ?obj wdt:P31 wd:Q5 }
+When was Carl Spitteler nominated for the Nobel Prize in Literature?,SELECT ?value WHERE { wd:Q226525 p:P1411 ?s . ?s ps:P1411 wd:Q37922 . ?s pq:P585 ?value}
+What is the label in sign language of the streak of color asbestos?,SELECT ?answer WHERE { wd:Q104085 wdt:P534 ?X . ?X wdt:P2919 ?answer}
+When did the Union of South Africa no longer have English as an official language?,SELECT ?value WHERE { wd:Q193619 p:P37 ?s . ?s ps:P37 wd:Q1860 . ?s pq:P582 ?value}
+What is the dynamic viscosity of acetic acid?,SELECT (COUNT(?obj) AS ?value ) { wd:Q47512 wdt:P3070 ?obj }
+,select distinct ?obj where { wd:Q131755 wdt:P780 ?obj . ?obj wdt:P31 wd:Q12136 }
+How many muscle origins are there in the {humerus} ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q162595 wdt:P3490 ?obj }
+Who was killed by Constantine the Great?,select distinct ?sbj where { ?sbj wdt:P157 wd:Q8413 . ?sbj wdt:P31 wd:Q5 }
+How many producers are there for Blade Runner?,SELECT (COUNT(?obj) AS ?value ) { wd:Q184843 wdt:P162 ?obj }
+Which is the notable work as a literature work of William Blake?,select distinct ?obj where { wd:Q41513 wdt:P800 ?obj . ?obj wdt:P31 wd:Q7725634 }
+When was Christopher Walken received the Theatre World Award?,SELECT ?value WHERE { wd:Q185051 p:P166 ?s . ?s ps:P166 wd:Q1131356 . ?s pq:P585 ?value}
+What instrument does the record producer play in Get your Gunn,SELECT ?answer WHERE { wd:Q549616 wdt:P162 ?X . ?X wdt:P1303 ?answer}
+What character did actor Richard Williams perform the voice of in Who Framed Roger Rabbit?,SELECT ?value WHERE { wd:Q379873 p:P725 ?s . ?s ps:P725 wd:Q1999598 . ?s pq:P453 ?value}
+Tell me process whose name has the word transition in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q3249551 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'transition')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the unit used to measure a physical quantity of energy?,select distinct ?sbj where { ?sbj wdt:P111 wd:Q11379 . ?sbj wdt:P31 wd:Q2916980 }
+When did Rajamahendravaram was located as an administrative territorial entity of East Godavari district?,SELECT ?value WHERE { wd:Q1639492 p:P131 ?s . ?s ps:P131 wd:Q15338 . ?s pq:P580 ?value}
+Who is the lightest baseball player?,select ?ent where { ?ent wdt:P31 wd:Q5 . ?ent wdt:P2067 ?obj . ?ent wdt:P106 wd:Q10871364} ORDER BY ASC(?obj)LIMIT 5
+Until when was the capital of the Grand Duchy of Finland Turku?,SELECT ?value WHERE { wd:Q62633 p:P36 ?s . ?s ps:P36 wd:Q38511 . ?s pq:P582 ?value}
+TELL ME MEDIA FRANCHISE WHOSE NAME HAS THE WORD ZOIDS IN IT.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q196600 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'zoids')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What house has a child in Sri Indraditya?,SELECT ?answer WHERE { wd:Q887310 wdt:P40 ?X . ?X wdt:P53 ?answer}
+Which is the federal state in the history topic of the history of Australia?,select distinct ?sbj where { ?sbj wdt:P2184 wd:Q174825 . ?sbj wdt:P31 wd:Q43702 }
+"when did albert I, prince of monaco win the alexander agassiz medal?",SELECT ?value WHERE { wd:Q159646 p:P166 ?s . ?s ps:P166 wd:Q1411550 . ?s pq:P585 ?value}
+What are thebranch of service which start with the letter voltigeur,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q690109 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'voltigeur')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When did Suriname become a member of the UN?,SELECT ?value WHERE { wd:Q730 p:P463 ?s . ?s ps:P463 wd:Q1065 . ?s pq:P580 ?value}
+When did Hawaii become a state in the United States?,SELECT ?value WHERE { wd:Q782 p:P31 ?s . ?s ps:P31 wd:Q35657 . ?s pq:P580 ?value}
+What arew the administrative territorial entity of Russia that contains the word tomsk in their name,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q192287 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'tomsk')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who is the youngest participant?,select ?ent where { ?ent wdt:P31 wd:Q5 . ?ent wdt:P3629 ?obj . ?ent wdt:P31 wd:Q5} ORDER BY ASC(?obj)LIMIT 5
+How many superhuman feature or abilities result in reincarnation?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2563 wd:Q128593 }
+What school was created by Gregor Samsa?,SELECT ?answer WHERE { wd:Q3566632 wdt:P170 ?X . ?X wdt:P135 ?answer}
+What are the war of national liberation which start with the letter war,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1006311 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'war')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who are the lineal descendants of Mazhar Ali Khan?,SELECT ?answer WHERE { wd:Q6798492 wdt:P1038 ?X . ?X wdt:P136 ?answer}
+What was the population of Chelyabinsk on 1926?,"SELECT ?obj WHERE { wd:Q906 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1926')) }"
+,select distinct ?obj where { wd:Q7204 wdt:P30 ?obj . ?obj wdt:P31 wd:Q5107 }
+What borough in the Straight of Magellan is adjacent to the Tierra del Fuego Province?,SELECT ?answer WHERE { wd:Q48365 wdt:P131 ?answer . ?answer wdt:P47 wd:Q44832}
+When was Polly Samson the spouse of David Gilmour?,SELECT ?value WHERE { wd:Q178517 p:P26 ?s . ?s ps:P26 wd:Q281036 . ?s pq:P580 ?value}
+What gene is genetically associated with colorectal cancer,select distinct ?obj where { wd:Q188874 wdt:P2293 ?obj . ?obj wdt:P31 wd:Q7187 }
+What was Pasha Angelina awarded in the year 1947?,"SELECT ?obj WHERE { wd:Q1964769 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1947')) }"
+Name a geographic region located in Oeania that starts with letter M,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q82794 . ?sbj wdt:P706 wd:Q538 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'm')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What person born on 1887-9-16 discovered vitamin A?,"SELECT ?answer WHERE { wd:Q18225 wdt:P61 ?answer . ?answer wdt:P569 ?x FILTER(contains(YEAR(?x),'1887'))}"
+What is the country of jurisdiction of Germany?,SELECT ?answer WHERE { wd:Q705818 wdt:P92 ?answer . ?answer wdt:P1001 wd:Q183}
+What was Arthur Miller nominated for in 1997?,"SELECT ?obj WHERE { wd:Q80596 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1997')) }"
+Where did the painters of Takaka: night and day reside?,SELECT ?answer WHERE { wd:Q27883241 wdt:P170 ?X . ?X wdt:P108 ?answer}
+What is the standard time in Genoa?,SELECT ?obj WHERE { wd:Q1449 p:P421 ?s . ?s ps:P421 ?obj . ?s pq:P1264 wd:Q1777301 }
+WHO IS THE ADMIN HQ OF FEDERATION AERONAUTIQUE INTERNATIONALE WHOSE ADJACENT TO IS PRILLY?,SELECT ?answer WHERE { wd:Q214130 wdt:P159 ?answer . ?answer wdt:P47 wd:Q69757}
+What child star appeared in Nico Icon?,SELECT ?answer WHERE { wd:Q3339863 wdt:P161 ?X . ?X wdt:P25 ?answer}
+What is the size of the Andromeda Galax ?,select distinct ?obj where { wd:Q2469 wdt:P398 ?obj . ?obj wdt:P31 wd:Q184348 }
+What is the country of Kinshasa since 1960-6-30?,"SELECT ?obj WHERE { wd:Q3838 p:P17 ?s . ?s ps:P17 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1960')) }"
+"Which body of water is Chicago situated near, and what time zone does Chicago observe?",SELECT ?ans_1 ?ans_2 WHERE { wd:Q1297 wdt:P206 ?ans_1 . wd:Q1297 wdt:P421 ?ans_2 }
+Name the region with the least amount of association football clubs.,select ?ent where { ?ent wdt:P31 wd:Q29791211 . ?ent wdt:P4999 ?obj . ?ent wdt:P641 wd:Q2736. } ORDER BY ASC(?obj)LIMIT 5
+What is the gravity dam with the most hydraulic head whose located on terrain feature is Columbia River?,select ?ent where { ?ent wdt:P31 wd:Q3497167 . ?ent wdt:P4441 ?obj . ?ent wdt:P706 wd:Q2251 } ORDER BY DESC(?obj)LIMIT 5
+How many out of school children come from absinthe?,SELECT ?answer WHERE { wd:Q170210 wdt:P495 ?X . ?X wdt:P2573 ?answer}
+Name the writer  of Kepler's laws of planetary motion,SELECT ?answer WHERE { wd:Q83219 wdt:P138 ?answer . ?answer wdt:P106 wd:Q36180}
+What is the description of the national seal of Sikkim?,select distinct ?obj where { wd:Q1505 wdt:P418 ?obj . ?obj wdt:P31 wd:Q12056846 }
+What is the temperature for benzene at density 0.88?,"SELECT ?value WHERE { wd:Q2270 p:P2054 ?s . ?s ps:P2054 ?x filter(contains(?x,'0.88')) . ?s pq:P2076 ?value}"
+Who is the team manager of the team Chavdar Atanasov?,SELECT ?answer WHERE { wd:Q5088485 wdt:P54 ?X . ?X wdt:P286 ?answer}
+What is Gene Hackman's nomination area for the 43rd Academy Awards?,SELECT ?obj WHERE { wd:Q150943 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q937162 }
+What are the Native American tribe in the United States which start with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q7840353 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Where in Ontario did Marshall McLuhan die?,SELECT ?obj WHERE { wd:Q193871 p:P20 ?s . ?s ps:P20 ?obj . ?s pq:P131 wd:Q1904 }
+Where did the daughter of Stephen Uros I of Serbia die?,SELECT ?answer WHERE { wd:Q73810 wdt:P25 ?X . ?X wdt:P20 ?answer}
+What is {population} of {Crimean Peninsula} where {point in time} is {1989-1-1} ?,"SELECT ?obj WHERE { wd:Q7835 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1989')) }"
+Which recurring sport event starts with the letter t?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q18608583 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+who  is the negative emotion for drug used for treatment of cocaine?,select distinct ?sbj where { ?sbj wdt:P2176 wd:Q41576 . ?sbj wdt:P31 wd:Q60539481 }
+Who is the child of Nurhaci that was born on 2/16/1612?,"SELECT ?answer WHERE { wd:Q311189 wdt:P40 ?answer . ?answer wdt:P569 ?x FILTER(contains(YEAR(?x),'1612'))}"
+What was George Cukor nominated for at the 23rd Academy Awards?,SELECT ?obj WHERE { wd:Q56014 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q917076 }
+Tell me United States Supreme Court decision whose name has the word united in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q19692072 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'united')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"What is the biological classification of the subject in the photograph Cypress, Point Lobos?",SELECT ?answer WHERE { wd:Q28741396 wdt:P180 ?X . ?X wdt:P171 ?answer}
+What is the street number of Musee D'Orsay has located on street as Rue De Bellechasse?,SELECT ?value WHERE { wd:Q23402 p:P669 ?s . ?s ps:P669 wd:Q3450565 . ?s pq:P670 ?value}
+how many superpowers does wonder woman have?,SELECT (COUNT(?obj) AS ?value ) { wd:Q338430 wdt:P2563 ?obj }
+Who is the {taxon rank} and the {parent taxon} of {Salmonella} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q150839 wdt:P105 ?ans_1 . wd:Q150839 wdt:P171 ?ans_2 }
+Tell me experiment whose name has the word totem in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q101965 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'totem')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+TELL ME MODE OF TRANSPORT WHOSE NAME HAS THE WORD VEHICLE IN IT.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q334166 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'vehicle')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is { position held } of { Pepin the Short } that is { replaced } is { Carloman I }?,SELECT ?obj WHERE { wd:Q81212 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1366 wd:Q191003 }
+What award did Richard Gere receive in 1979?,"SELECT ?obj WHERE { wd:Q48410 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1979')) }"
+WHERE IS THE HEADQUARTERS OF INTERNATIONAL MARITIME ORGANIZATION CATEGORIZED AND ASSOCIATED BY THE PEOPLE?,SELECT ?answer WHERE { wd:Q201054 wdt:P159 ?X . ?X wdt:P1792 ?answer}
+who co-founder of working place of Joseph armstrong ?,SELECT ?answer WHERE { wd:Q6281111 wdt:P108 ?X . ?X wdt:P112 ?answer}
+"Name a quantum particle that interacts with gravity and that contains the word ""quark"" in its name","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q22675015 . ?sbj wdt:P517 wd:Q11412 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'quark')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Tell me the fictional universe used for King Arthur.,select distinct ?obj where { wd:Q45792 wdt:P1080 ?obj . ?obj wdt:P31 wd:Q559618 }
+What is the location of birth of Jose Maria Aznar which also bordered by Las Rozas de Madrid?,SELECT ?answer WHERE { wd:Q55637 wdt:P19 ?answer . ?answer wdt:P47 wd:Q592747}
+"What is the birthplace of A. D. Hope, which has local government areas in the City of Liverpool?",SELECT ?answer WHERE { wd:Q325890 wdt:P19 ?answer . ?answer wdt:P150 wd:Q1309863}
+Which is the association football stadium for which Foster + Partners were architects and contains the word stadium in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1154710 . ?sbj wdt:P84 wd:Q1208016 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'stadium')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+who member  of graduated from of regna darnell?,SELECT ?answer WHERE { wd:Q7309503 wdt:P69 ?X . ?X wdt:P463 ?answer}
+How many copyright owners are in {Nintendo} ?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P3931 wd:Q8093 }
+What was Laurie Metcalf nominated for at the 62nd Tony Awards?,SELECT ?obj WHERE { wd:Q236711 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q1536397 }
+What is the subsidiary entities of the developed by Windows XP ?,SELECT ?answer WHERE { wd:Q11248 wdt:P178 ?X . ?X wdt:P355 ?answer}
+Which television channel is affiliated to PBS?,select distinct ?sbj where { ?sbj wdt:P1416 wd:Q215616 . ?sbj wdt:P31 wd:Q2001305 }
+What award was Joel Grey nominated for in the 33rd Tony Awards?,SELECT ?obj WHERE { wd:Q316641 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q4635303 }
+What territory overlaps the Rideau Canal?,SELECT (COUNT(?obj) AS ?value ) { wd:Q651323 wdt:P3179 ?obj }
+What are the interface standard  which start with the letter v,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q6046311 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'v')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who is the {enterprise} for {owned by} of {My Little Pony?,select distinct ?obj where { wd:Q1071312 wdt:P127 ?obj . ?obj wdt:P31 wd:Q6881511 }
+What is the public library of Nagasaki?,select distinct ?sbj where { ?sbj wdt:P276 wd:Q38234 . ?sbj wdt:P31 wd:Q28564 }
+Who is the spouse of Cary Grant?,"SELECT ?obj WHERE { wd:Q83410 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1945')) }"
+What position did Franz Joseph I of Austria replace of Ferninand I Emperor of Austria?,SELECT ?obj WHERE { wd:Q51056 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q183579 }
+who subsidiary entities of book publisher of disney magicboard online ?,SELECT ?answer WHERE { wd:Q972216 wdt:P123 ?X . ?X wdt:P355 ?answer}
+Mention the supergroup member comprising of Johnny Depp,select distinct ?obj where { wd:Q37175 wdt:P463 ?obj . ?obj wdt:P31 wd:Q215048 }
+What award was Glenn Gould nominated for in 1982?,"SELECT ?obj WHERE { wd:Q216924 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1982')) }"
+What is the battle for Yuan dynasty's country ?,select distinct ?sbj where { ?sbj wdt:P17 wd:Q7313 . ?sbj wdt:P31 wd:Q178561 }
+What is the Rolling Stone publisher's written work?,select distinct ?sbj where { ?sbj wdt:P123 wd:Q33511 . ?sbj wdt:P31 wd:Q47461344 }
+Who was no longer the spouse of Joan Crawford in the year 1933?,"SELECT ?obj WHERE { wd:Q40475 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1933')) }"
+"Name the kind of business entity in the US that contains the world ""company""","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q57653825 . ?sbj wdt:P1001 wd:Q30 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'company')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Where does the founder of NGC 4151 live?,SELECT ?answer WHERE { wd:Q942187 wdt:P61 ?X . ?X wdt:P551 ?answer}
+What is Israel's diplomatic position in Israel's and the United States relations?,SELECT ?obj WHERE { wd:Q801 p:P530 ?s . ?s ps:P530 ?obj . ?s pq:P805 wd:Q607505 }
+What Alex Haley received for his work in The Autobiography of Malcolm X?,SELECT ?obj WHERE { wd:Q296069 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P1686 wd:Q2281600 }
+The writers of The Large Scale Structure of Space-Time hold what specialty?,SELECT ?answer WHERE { wd:Q7745497 wdt:P50 ?X . ?X wdt:P101 ?answer}
+What award was Alfred Hitchcock nominated for because of his work on Rebecca?,SELECT ?obj WHERE { wd:Q7374 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P1686 wd:Q204212 }
+When did Philopoemen die?,SELECT ?obj WHERE { wd:Q366117 p:P570 ?s . ?s ps:P570 ?obj . ?s pq:P1480 wd:Q5727902 }
+What happened to Sverdlov-class cruiser?,SELECT ?answer WHERE { wd:Q2001742 wdt:P137 ?X . ?X wdt:P607 ?answer}
+Mike Trout plays which position and is what gender?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q3090378 wdt:P413 ?ans_1 . wd:Q3090378 wdt:P21 ?ans_2 }
+When did the  postal service start using ID for Idaho?,"SELECT ?value WHERE { wd:Q1221 p:P1813 ?s . ?s ps:P1813 ?x filter(contains(?x,'ID')) . ?s pq:P580 ?value}"
+When did Nan Goldin receive the Hasseblad Award?,SELECT ?value WHERE { wd:Q234279 p:P166 ?s . ?s ps:P166 wd:Q1324112 . ?s pq:P585 ?value}
+Who is the painter of pendant to of Vertumnus?,SELECT ?answer WHERE { wd:Q16333797 wdt:P1639 ?X . ?X wdt:P170 ?answer}
+How many {competition class} are to/by {100 metres} ?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2094 wd:Q164761 }
+What are the files founded by Quakers?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q170208 wdt:P485 ?ans_1 . wd:Q170208 wdt:P112 ?ans_2 }
+Which is the historical country that had Romanian as official language?,select distinct ?sbj where { ?sbj wdt:P37 wd:Q7913 . ?sbj wdt:P31 wd:Q3024240 }
+when did David Attenborough become the member of the Royal Society?,SELECT ?value WHERE { wd:Q183337 p:P463 ?s . ?s ps:P463 wd:Q123885 . ?s pq:P580 ?value}
+What is the name of Warren Buffet's company?,select distinct ?sbj where { ?sbj wdt:P169 wd:Q47213 . ?sbj wdt:P31 wd:Q219577 }
+What are the symptoms and causes of Gastroenteritis?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q156103 wdt:P780 ?ans_1 . wd:Q156103 wdt:P828 ?ans_2 }
+What is said in Robin Hood's work?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q122634 wdt:P460 ?ans_1 . wd:Q122634 wdt:P1441 ?ans_2 }
+How long was Alessandro Rosa Vieira a member of the sports team in 2005?,"SELECT ?obj WHERE { wd:Q919942 p:P54 ?s . ?s ps:P54 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'2005')) }"
+What are Dick Van Dyke's top honors?,SELECT ?answer WHERE { wd:Q310295 wdt:P166 ?X . ?X wdt:P1346 ?answer}
+Who was Rafael Nadal's head coach starting in 1990?,"SELECT ?obj WHERE { wd:Q10132 p:P286 ?s . ?s ps:P286 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1990')) }"
+What is Astro Boy based on?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P144 wd:Q673036 }
+Tell me which is the abnormally low value that contains the word underweight in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q54928607 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'underweight')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Tell me colonial colleges whose name has the word university in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1188663 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'university')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+How did Andrea del Verrocchio come to be a student of Pietro Perugino?,SELECT ?value WHERE { wd:Q5827 p:P1066 ?s . ?s ps:P1066 wd:Q183458 . ?s pq:P1480 ?value}
+Name a fundamental state of matter that starts with letter G,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q15831576 . ?sbj wdt:P1557 wd:Q29147941 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'g')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is valid in jurisdiction of holds position of John Endecott ?,SELECT ?answer WHERE { wd:Q1699971 wdt:P39 ?X . ?X wdt:P1001 ?answer}
+"What was the population of Mashhad on September 11th, 1991?","SELECT ?obj WHERE { wd:Q121157 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1991')) }"
+"What is the language used in Constant Puyo, that is typology place-manner-time?",SELECT ?answer WHERE { wd:Q650368 wdt:P1412 ?answer . ?answer wdt:P4132 wd:Q7200373}
+What was Theodor W. Adorno nominated for on 1 January 1965?,"SELECT ?obj WHERE { wd:Q152388 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1965')) }"
+tell me jurisdiction that name has the word viguerie in it,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q471855 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'viguerie')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Name the city in Netherlands twinned with Prague,select ?ent where { ?ent wdt:P31 wd:Q2039348 . ?ent wdt:P2297 ?obj . ?ent wdt:P190 wd:Q1085. } ORDER BY ASC(?obj)LIMIT 5
+What was Raiders of the Lost Ark nominated for at the 54th Academy Awards?,SELECT ?obj WHERE { wd:Q174284 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q28969 }
+"Who replaced William Pitt, 1st Earl of Chatham as the Prime Minister of the United Kingdom?",SELECT ?value WHERE { wd:Q208663 p:P39 ?s . ?s ps:P39 wd:Q14211 . ?s pq:P1366 ?value}
+What G-type main sequence star has the largest angular diameter?,select ?ent where { ?ent wdt:P31 wd:Q5864 . ?ent wdt:P5348 ?obj } ORDER BY DESC(?obj)LIMIT 5
+What Marama Teururai brother is married to Pōmare V?,SELECT ?answer WHERE { wd:Q879812 wdt:P26 ?answer . ?answer wdt:P3373 wd:Q3287438}
+What is the nationality of Katharine Hayhoe?,SELECT ?answer WHERE { wd:Q15429497 wdt:P27 ?X . ?X wdt:P1082 ?answer}
+What is bordered by Rome?,SELECT ?answer WHERE { wd:Q5664 wdt:P20 ?X . ?X wdt:P47 ?answer}
+Until what year was Zico a member of the Brazilian national soccer team?,SELECT ?value WHERE { wd:Q47526 p:P54 ?s . ?s ps:P54 wd:Q83459 . ?s pq:P582 ?value}
+Tell me the specialized agency of the United Nations that contains the word world in their name,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q15925165 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'world')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the Coen brothers' member occupations in the film making profession's field?,SELECT ?answer WHERE { wd:Q56095 wdt:P3989 ?answer . ?answer wdt:P425 wd:Q932586}
+"Where was Woodrow Wilson born, and where did he die?",SELECT ?ans_1 ?ans_2 WHERE { wd:Q34296 wdt:P20 ?ans_1 . wd:Q34296 wdt:P19 ?ans_2 }
+Tell me military operation whose name has the word operation in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q645883 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'operation')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the health specialty  drug used for treatment of Anthrax ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q129104 wdt:P1995 ?ans_1 . wd:Q129104 wdt:P2176 ?ans_2 }
+Where did Albert Einstein live?,SELECT ?answer WHERE { wd:Q937 wdt:P551 ?X . ?X wdt:P1082 ?answer}
+Which is {afflicts} of {outcome} of {dichlorodifluoromethane} ?,SELECT ?answer WHERE { wd:Q423021 wdt:P1542 ?X . ?X wdt:P689 ?answer}
+who field of this work of anna orlova?,SELECT ?answer WHERE { wd:Q433685 wdt:P106 ?X . ?X wdt:P425 ?answer}
+"Who did Frida Kahlo marry on November 11, 1939?","SELECT ?obj WHERE { wd:Q5588 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1939')) }"
+Which nomination did The simpsons receive in the year 2001?,"SELECT ?obj WHERE { wd:Q886 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2001')) }"
+Perseus killed how many?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P157 wd:Q130832 }
+"""Which higher taxon of Australopithecus Anamnesis, has the vernacular name  오스트랄로피테쿠스속 ?""","SELECT ?answer WHERE { wd:Q310520 wdt:P171 ?answer . ?answer wdt:P1843 ?x FILTER(contains(?x,'오스트랄로피테쿠스속'))}"
+When did John von Neumann take Kara Dan von Neumann as his spouse?,SELECT ?value WHERE { wd:Q17455 p:P26 ?s . ?s ps:P26 wd:Q14100 . ?s pq:P580 ?value}
+What caused leprosy?,select distinct ?sbj where { ?sbj wdt:P1542 wd:Q36956 . ?sbj wdt:P31 wd:Q16521 }
+"What is the Christian name of Kate Moss, the one that has the Latin script?",SELECT ?answer WHERE { wd:Q212531 wdt:P735 ?answer . ?answer wdt:P282 wd:Q8229}
+how much external subpropertyies are needed for a seat?,SELECT (COUNT(?obj) AS ?value ) { wd:Q2731419 wdt:P2236 ?obj }
+What was Dustin Lance Black nominated for in 2008?,"SELECT ?obj WHERE { wd:Q717302 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2008')) }"
+What was the population of Somalia in 2009-0-0?,"SELECT ?obj WHERE { wd:Q1045 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2009')) }"
+What were the last words of Jesus Christ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q302 wdt:P3909 ?obj }
+WHO STUDIED THE SUBITEM OF ENGINEERING ETHICS?,SELECT ?answer WHERE { wd:Q1133029 wdt:P1269 ?X . ?X wdt:P3095 ?answer}
+Who is the seiyu of part of a series of Max Jets?,SELECT ?answer WHERE { wd:Q51164988 wdt:P179 ?X . ?X wdt:P725 ?answer}
+When was Heinrich Böll nominated for the Nobel Prize in Literature?,SELECT ?value WHERE { wd:Q42747 p:P1411 ?s . ?s ps:P1411 wd:Q37922 . ?s pq:P585 ?value}
+What is displacement treated by  cancer ?,SELECT ?answer WHERE { wd:Q12078 wdt:P2176 ?X . ?X wdt:P2067 ?answer}
+What was the amount of prize money Wislawa Szymborska received for winning the Nobel Prize in literature?,SELECT ?value WHERE { wd:Q42552 p:P166 ?s . ?s ps:P166 wd:Q37922 . ?s pq:P2121 ?value}
+State the latest version of federalist papers?,select distinct ?sbj where { ?sbj wdt:P629 wd:Q858036 . ?sbj wdt:P31 wd:Q3331189 }
+What are the unique signs of a sulfuric acid burn?,SELECT ?answer WHERE { wd:Q4118 wdt:P1542 ?answer . ?answer wdt:P780 wd:Q170518}
+What are the stellar classification which start with the letter t,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q179600 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 't')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+How many movies in the fictional universe are from the Marvel Cinematic Universe?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1434 wd:Q642878 }
+Who are the producer and screenwriter of Taxi Driver?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q47221 wdt:P162 ?ans_1 . wd:Q47221 wdt:P58 ?ans_2 }
+Who is the father of Kristina Oxenstierna's sister?,SELECT ?answer WHERE { wd:Q4971583 wdt:P3373 ?X . ?X wdt:P22 ?answer}
+When was Tip O'Neill no longer the speaker of the United States House of Representatives?,SELECT ?value WHERE { wd:Q2094491 p:P39 ?s . ?s ps:P39 wd:Q912994 . ?s pq:P582 ?value}
+Name someone involved in the October Revolution,select distinct ?sbj where { ?sbj wdt:P607 wd:Q42976 . ?sbj wdt:P31 wd:Q5 }
+What are the star which start with the letter v,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q523 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'v')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What are the cooking method that contains the word steeping in their name,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1039303 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'steeping')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What job did Franz von Papen replace Herman Goring?,SELECT ?obj WHERE { wd:Q47906 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q150552 }
+From what date was Kharkiv part of the country Ukraine?,SELECT ?value WHERE { wd:Q42308 p:P17 ?s . ?s ps:P17 wd:Q243610 . ?s pq:P580 ?value}
+What is language for The Daily Show?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q824192 wdt:P364 ?ans_1 . wd:Q824192 wdt:P407 ?ans_2 }
+Tell me gold rush whose name has the word gold in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q273182 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'gold')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+who public office for position held of Moon Jae-in?,select distinct ?obj where { wd:Q21001 wdt:P39 ?obj . ?obj wdt:P31 wd:Q294414 }
+When did Luis Martinez de Galinsoga y de la Serna end his time as manager of La Vanguardia?,SELECT ?value WHERE { wd:Q511533 p:P1037 ?s . ?s ps:P1037 wd:Q11689899 . ?s pq:P582 ?value}
+Who is the creator and voice actor of Mickey Mouse ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q11934 wdt:P725 ?ans_1 . wd:Q11934 wdt:P170 ?ans_2 }
+What year did Japan begin to share a border with China?,SELECT ?value WHERE { wd:Q188712 p:P47 ?s . ?s ps:P47 wd:Q13426199 . ?s pq:P580 ?value}
+Name a movie directed by Francis Ford Coppola,select distinct ?sbj where { ?sbj wdt:P57 wd:Q56094 . ?sbj wdt:P31 wd:Q11424 }
+Who is the author of Walden?,select distinct ?obj where { wd:Q863534 wdt:P50 ?obj . ?obj wdt:P31 wd:Q5 }
+What is faith of musician of Shatter Me ?,SELECT ?answer WHERE { wd:Q16266699 wdt:P175 ?X . ?X wdt:P140 ?answer}
+How many narrators are in Dracula?,SELECT (COUNT(?obj) AS ?value ) { wd:Q41542 wdt:P2438 ?obj }
+What business publishes The New York Times,select distinct ?obj where { wd:Q9684 wdt:P123 ?obj . ?obj wdt:P31 wd:Q4830453 }
+What was located in the administrative territorial entity of Toranto during 1840?,"SELECT ?obj WHERE { wd:Q172 p:P131 ?s . ?s ps:P131 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1840')) }"
+When did Ismailia Governorate have a population of 1303993?,"SELECT ?value WHERE { wd:Q31067 p:P1082 ?s . ?s ps:P1082 ?x filter(contains(?x,'1303993')) . ?s pq:P585 ?value}"
+What is software version of Tinder that is operating system is iOS ?,SELECT ?obj WHERE { wd:Q15078152 p:P348 ?s . ?s ps:P348 ?obj . ?s pq:P306 wd:Q48493 }
+What is studied in the plays of Ian Rush?,SELECT ?answer WHERE { wd:Q219354 wdt:P641 ?X . ?X wdt:P3095 ?answer}
+What types of gas are there?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P515 wd:Q11432 }
+Karlsruhe has how many areas?,SELECT (COUNT(?obj) AS ?value ) { wd:Q1040 wdt:P2046 ?obj }
+Who are the characters that appear in Olivia Flaversham?,SELECT ?answer WHERE { wd:Q20822895 wdt:P1441 ?X . ?X wdt:P674 ?answer}
+Tell me the entertainment company that came after Comcast.,select distinct ?obj where { wd:Q1113804 wdt:P155 ?obj . ?obj wdt:P31 wd:Q20739124 }
+Where are tennis leagues in Indore?,select distinct ?sbj where { ?sbj wdt:P276 wd:Q66616 . ?sbj wdt:P31 wd:Q47443726 }
+For which work Jodie Foster received award as a best actress?,SELECT ?value WHERE { wd:Q41351 p:P166 ?s . ?s ps:P166 wd:Q1413741 . ?s pq:P1686 ?value}
+Who is the owner of the East India Company and where is the headquarters located?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q83164 wdt:P1830 ?ans_1 . wd:Q83164 wdt:P159 ?ans_2 }
+Which is the short film that had Sergei Eisenstein as film editor?,select distinct ?sbj where { ?sbj wdt:P1040 wd:Q8003 . ?sbj wdt:P31 wd:Q24862 }
+When was Antonin Scalia employed by the University of Chicago Law School?,SELECT ?value WHERE { wd:Q11156 p:P108 ?s . ?s ps:P108 wd:Q1036763 . ?s pq:P580 ?value}
+What are the symptoms of Hepatitis C and what drug is used to treat it?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q154869 wdt:P780 ?ans_1 . wd:Q154869 wdt:P2176 ?ans_2 }
+"Where are the administrative headquarters of the Johor Sultanate, who's sister city is Istanbul?",SELECT ?answer WHERE { wd:Q1150344 wdt:P36 ?answer . ?answer wdt:P190 wd:Q406}
+"Name a super cultural area that contains the word "" mesoamerica"" in its name","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q15733622 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'mesoamerica')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"On February 8, 1974, what position did Harold Wilson hold?","SELECT ?obj WHERE { wd:Q128956 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1974')) }"
+What is the instance of Republic of Genova since the year of 1005?,"SELECT ?obj WHERE { wd:Q174306 p:P31 ?s . ?s ps:P31 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1005')) }"
+Which is {located in the administrative territorial entity} and the {founded by} of {Burning_Man} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q152518 wdt:P131 ?ans_1 . wd:Q152518 wdt:P112 ?ans_2 }
+What is in the department on street of convento de las Clarisas?,SELECT ?answer WHERE { wd:Q48133142 wdt:P669 ?X . ?X wdt:P131 ?answer}
+who mausoleum for place of burial of Muhammad Ali Jinnah?,select distinct ?obj where { wd:Q160554 wdt:P119 ?obj . ?obj wdt:P31 wd:Q162875 }
+tell me the fallen angel starts with z,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q581450 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is Janet Jackson record's label ?,select distinct ?obj where { wd:Q131324 wdt:P264 ?obj . ?obj wdt:P31 wd:Q4830453 }
+What are the municipality of West Bengal which start with the letter titagarh,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q18918041 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'titagarh')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the literary genre composed by Suite No. 2?,SELECT ?answer WHERE { wd:Q1966218 wdt:P86 ?X . ?X wdt:P136 ?answer}
+What was the area of Stuttgart in 1977?,"SELECT ?obj WHERE { wd:Q1022 p:P2046 ?s . ?s ps:P2046 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1977')) }"
+What position that Kurt Georg Kiesinger held was replaced by Hans Ehard?,SELECT ?obj WHERE { wd:Q2512 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q67597 }
+"What is the working language of Al Jazeera, which has ""арабский"" as acronym?","SELECT ?answer WHERE { wd:Q13477 wdt:P2936 ?answer . ?answer wdt:P1813 ?x FILTER(contains(?x,'арабский'))}"
+When did Brittany Murphy and Simon Monjack get married?,SELECT ?value WHERE { wd:Q168847 p:P26 ?s . ?s ps:P26 wd:Q645704 . ?s pq:P580 ?value}
+Whic taxon is the parent taxon of Durio?,select distinct ?sbj where { ?sbj wdt:P171 wd:Q2309085 . ?sbj wdt:P31 wd:Q16521 }
+"""What activity of Emil Kraepelin utilized the working language of German""?",SELECT ?answer WHERE { wd:Q76828 wdt:P937 ?answer . ?answer wdt:P2936 wd:Q188}
+What countries did the Russian Empire span?,select distinct ?sbj where { ?sbj wdt:P530 wd:Q34266 . ?sbj wdt:P31 wd:Q3024240 }
+What qualifies Gujarat to use the Hindi language?,SELECT ?value WHERE { wd:Q1061 p:P2936 ?s . ?s ps:P2936 wd:Q1568 . ?s pq:P1552 ?value}
+Which is the ethnic conflict which contains the word wars in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q766875 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'wars')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+How many dome enclosures are there?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P3158 wd:Q12493 }
+what are the cinematic technique that contains the word tilt in their name,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1001378 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'tilt')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What award did Rihanna Receive in 2010?,"SELECT ?obj WHERE { wd:Q36844 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2010')) }"
+What is the active ingredient in amphetamine?,select distinct ?obj where { wd:Q179452 wdt:P3780 ?obj . ?obj wdt:P31 wd:Q28885102 }
+What is the acreage of the work location of Christian Wihelm Braune?,SELECT ?answer WHERE { wd:Q100828 wdt:P937 ?X . ?X wdt:P2046 ?answer}
+"What is the forename of John Stagliano, which also has the same meaning as ""loan""?",SELECT ?answer WHERE { wd:Q1273684 wdt:P735 ?answer . ?answer wdt:P460 wd:Q931093}
+What stout is based on the establishment date of 1800-0-0?,"SELECT ?answer WHERE { wd:Q217825 wdt:P144 ?answer . ?answer wdt:P571 ?x FILTER(contains(YEAR(?x),'1800'))}"
+When did Assur become the capiral of the Old Assyrian Empire?,SELECT ?value WHERE { wd:Q200200 p:P1376 ?s . ?s ps:P1376 wd:Q22948607 . ?s pq:P580 ?value}
+How many conflicts were in the Korean War?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P607 wd:Q8663 }
+When did the population of Santiago Metropolitan Region reach 7112808?,"SELECT ?value WHERE { wd:Q2131 p:P1082 ?s . ?s ps:P1082 ?x filter(contains(?x,'7112808')) . ?s pq:P585 ?value}"
+Did Gotthold Ephrain Lessing obtain the Master's degree?,SELECT ?obj WHERE { wd:Q34628 p:P69 ?s . ?s ps:P69 ?obj . ?s pq:P512 wd:Q183816 }
+What was Morgan Freeman nominated for in the 32nd Tony Awards?,SELECT ?obj WHERE { wd:Q48337 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P805 wd:Q4635113 }
+When did Guiding Light receive the Daytime Emmy Award for Outstanding Drama Series Writing Team?,SELECT ?value WHERE { wd:Q1145764 p:P166 ?s . ?s ps:P166 wd:Q5243445 . ?s pq:P585 ?value}
+How many directors of photography are there for Triumph of the Will?,SELECT (COUNT(?obj) AS ?value ) { wd:Q156497 wdt:P344 ?obj }
+Who is the county seat for Kendel Herrarte's birthplace?,SELECT ?answer WHERE { wd:Q20676955 wdt:P19 ?X . ?X wdt:P1376 ?answer}
+Which is {twin cities} of {location} {Subh-i-Azal} ?,SELECT ?answer WHERE { wd:Q923673 wdt:P19 ?X . ?X wdt:P190 ?answer}
+when is the {start time} for {Joseph Goebbels} who has {spouse} as {Magda Goebbels} ?,SELECT ?value WHERE { wd:Q41749 p:P26 ?s . ?s ps:P26 wd:Q57202 . ?s pq:P580 ?value}
+Tell me method whose name has the word washing in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1799072 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'washing')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What award did Vsevolod Pudovkin receive on 1953-0-0?,"SELECT ?obj WHERE { wd:Q55195 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1953')) }"
+Where is the Acropolis of Athens located ?,select distinct ?sbj where { ?sbj wdt:P276 wd:Q131013 . ?sbj wdt:P31 wd:Q44539 }
+Who are the members of and the participants in Carlos Santana?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q819016 wdt:P1344 ?ans_1 . wd:Q819016 wdt:P463 ?ans_2 }
+For what unfinished film was Sergei Eisenstein the editor?,select distinct ?sbj where { ?sbj wdt:P1040 wd:Q8003 . ?sbj wdt:P31 wd:Q18011171 }
+Name a member of the Nazi Party.,select distinct ?sbj where { ?sbj wdt:P102 wd:Q7320 . ?sbj wdt:P31 wd:Q5 }
+"""Which is {twin city} of {Hanoi}, that has {has states} is {Praga-Południe} ?""",SELECT ?answer WHERE { wd:Q1858 wdt:P190 ?answer . ?answer wdt:P150 wd:Q2107492}
+Who is {member of} of {county seat of} of {Palikir} ?,SELECT ?answer WHERE { wd:Q42751 wdt:P1376 ?X . ?X wdt:P463 ?answer}
+What sports team did Mircea Lucescu play for on 1-1-1977?,"SELECT ?obj WHERE { wd:Q342698 p:P54 ?s . ?s ps:P54 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1977')) }"
+what are the constellation which starts with v,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q8928 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'v')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When is the {end time} for {Hesse} where {head of government} as {Georg August Zinn} ?,SELECT ?value WHERE { wd:Q1199 p:P6 ?s . ?s ps:P6 wd:Q72955 . ?s pq:P582 ?value}
+Which is {headquarter} {made by} of {SM UB-43} ?,SELECT ?answer WHERE { wd:Q7391649 wdt:P176 ?X . ?X wdt:P159 ?answer}
+What are the prefecture-level city which start with the letter u,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q748149 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'ü')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"""Which is {named for} of {utopia},whose {ilthlustrated by} is {Ambrosius Holbein} ?""",SELECT ?answer WHERE { wd:Q131156 wdt:P138 ?answer . ?answer wdt:P110 wd:Q123732}
+For what reason Thomas Mitchell was nominated as Academy Award for best supporting actor?,SELECT ?value WHERE { wd:Q317026 p:P1411 ?s . ?s ps:P1411 wd:Q106291 . ?s pq:P1686 ?value}
+Who is {wife} of {contestant} of {Dr. Popaul} ?,SELECT ?answer WHERE { wd:Q769712 wdt:P161 ?X . ?X wdt:P26 ?answer}
+"What is the name for cauchy stress tensor, that has as employment the physicists?",SELECT ?answer WHERE { wd:Q13409892 wdt:P138 ?answer . ?answer wdt:P106 wd:Q169470}
+What is the translation of Dennis Rodman's nickname 'Adivina quien viene esta noche'?,"SELECT ?value WHERE { wd:Q201608 p:P1449 ?s . ?s ps:P1449 ?x filter(contains(?x,'Adivina quien viene esta noche')) . ?s pq:P2441 ?value}"
+"In 2010, what was the population of Portland?","SELECT ?obj WHERE { wd:Q6106 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2010')) }"
+Who is Denis William Brogan's spouse?,SELECT ?answer WHERE { wd:Q1187698 wdt:P26 ?X . ?X wdt:P1066 ?answer}
+What is the derived from of the from work of Detective Lemieux?,SELECT ?answer WHERE { wd:Q24068213 wdt:P1441 ?X . ?X wdt:P144 ?answer}
+Sumy Oblast was a citizen of what country in 1991?,"SELECT ?obj WHERE { wd:Q170446 p:P17 ?s . ?s ps:P17 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1991')) }"
+What territory was Yaroslavl a part of on 10 March 1936?,"SELECT ?obj WHERE { wd:Q2423 p:P131 ?s . ?s ps:P131 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1936')) }"
+What position did Oliver Cromwell leave in 1649?,"SELECT ?obj WHERE { wd:Q44279 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1649')) }"
+Which Haumea star has a satellite of 418220 Kestutis?,SELECT ?answer WHERE { wd:Q601 wdt:P397 ?answer . ?answer wdt:P398 wd:Q25395515}
+What is the party and ideology of Vladimir Ovsyannikov?,SELECT ?answer WHERE { wd:Q4330844 wdt:P102 ?X . ?X wdt:P1142 ?answer}
+There are how many therapeutic areas related to breast cancer?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P4044 wd:Q128581 }
+Who was nominated for the Truman Show at the Academy Awards for Best Supporting Actor?,SELECT ?value WHERE { wd:Q214801 p:P1411 ?s . ?s ps:P1411 wd:Q106291 . ?s pq:P2453 ?value}
+Which is the {notable work} and the {field of work} of {Thomas_Hobbes} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q37621 wdt:P800 ?ans_1 . wd:Q37621 wdt:P101 ?ans_2 }
+For what work did Bernard DeVoto receive the Pulizer Prize for History?,SELECT ?value WHERE { wd:Q3638666 p:P166 ?s . ?s ps:P166 wd:Q599254 . ?s pq:P1686 ?value}
+When is {diplomatic relation} and {citizenship} of {Mike Tyson} ?,SELECT ?answer WHERE { wd:Q79031 wdt:P27 ?X . ?X wdt:P530 ?answer}
+Name the religions names of the  {Mother Teresa} ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q30547 wdt:P1635 ?obj }
+What is the railway station owned by Amtrak?,select distinct ?sbj where { ?sbj wdt:P127 wd:Q23239 . ?sbj wdt:P31 wd:Q55488 }
+According to determination method of census what is the population of Oregon?,SELECT ?obj WHERE { wd:Q824 p:P1082 ?s . ?s ps:P1082 ?obj . ?s pq:P459 wd:Q39825 }
+What is manufactured using prune?,SELECT ?answer WHERE { wd:Q6766526 wdt:P186 ?X . ?X wdt:P1582 ?answer}
+How many names are there for Charles V?,SELECT (COUNT(?obj) AS ?value ) { wd:Q32500 wdt:P1559 ?obj }
+What are the borders of Southern Africa?,SELECT ?answer WHERE { wd:Q27394 wdt:P706 ?X . ?X wdt:P47 ?answer}
+Who {has kid} of {songwriter} of {The Gold Rush} ?,SELECT ?answer WHERE { wd:Q214723 wdt:P86 ?X . ?X wdt:P40 ?answer}
+"Tell me me a first-order metaclass whose name consist of the word ""level"" and whose list value as qualitiers are disjiont union","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q24017414 . ?sbj wdt:P2738 wd:Q23766486 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'level')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Name someone working in Vancouver,select distinct ?sbj where { ?sbj wdt:P937 wd:Q24639 . ?sbj wdt:P31 wd:Q5 }
+What is endtime for battle of Harvey Williams Cushing ?,SELECT ?answer WHERE { wd:Q380038 wdt:P607 ?X . ?X wdt:P582 ?answer}
+When did Frans Eemil Sillanpaa got nominated for the Nobel Prize for literature?,SELECT ?value WHERE { wd:Q132723 p:P1411 ?s . ?s ps:P1411 wd:Q37922 . ?s pq:P585 ?value}
+Who is {partners} of {contestant} {Devar} ?,SELECT ?answer WHERE { wd:Q5266514 wdt:P161 ?X . ?X wdt:P26 ?answer}
+Which {diplomatic relation} {comes from} {TLC} ?,SELECT ?answer WHERE { wd:Q742804 wdt:P495 ?X . ?X wdt:P530 ?answer}
+Tell me the data sterilization format that starts with the letter 'y'.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q24451526 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'y')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When did Peter Georg Bang start as the head of the Denmark government?,SELECT ?value WHERE { wd:Q35 p:P6 ?s . ?s ps:P6 wd:Q591189 . ?s pq:P580 ?value}
+who county seat of of birth location of Jivaka kumar bhaccha ?,SELECT ?answer WHERE { wd:Q1689712 wdt:P19 ?X . ?X wdt:P1376 ?answer}
+What is tributary of  bay for São Miguel island ?,SELECT ?answer WHERE { wd:Q209036 wdt:P206 ?X . ?X wdt:P974 ?answer}
+who is the bus station for owned by  Lend-Lease?,select distinct ?sbj where { ?sbj wdt:P127 wd:Q207637 . ?sbj wdt:P31 wd:Q494829 }
+Which of Henry Holidays' paintings are his representative works?,SELECT ?answer WHERE { wd:Q1763678 wdt:P800 ?X . ?X wdt:P180 ?answer}
+Who played Naomi in How I Met Your Mother?,SELECT ?obj WHERE { wd:Q147235 p:P161 ?s . ?s ps:P161 ?obj . ?s pq:P453 wd:Q50385706 }
+What is the Q48460 of basin countries of Loch Ness ?,SELECT ?answer WHERE { wd:Q49650 wdt:P205 ?X . ?X wdt:P1036 ?answer}
+Tell me the conglomerate of the industry conglomerate which contains the word ling in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q778575 . ?sbj wdt:P452 wd:Q778575 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'ling')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What university did Max Marcuse attend?,SELECT ?answer WHERE { wd:Q92030 wdt:P69 ?X . ?X wdt:P1075 ?answer}
+How many home world does the Earth has?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P1165 wd:Q2 }
+"Do you know what the old, oblast capital of Vologograd, in Russia, is?",select distinct ?sbj where { ?sbj wdt:P36 wd:Q914 . ?sbj wdt:P31 wd:Q835714 }
+Who is the publisher of Atari 2600 video games?,select distinct ?obj where { wd:Q206261 wdt:P176 ?obj . ?obj wdt:P31 wd:Q1137109 }
+Whhich is {used for treatment} of {death cause} of {Madhavrao I} ?,SELECT ?answer WHERE { wd:Q5971343 wdt:P509 ?X . ?X wdt:P2176 ?answer}
+Who is the replacement as Imperial chancellor for Bernhard von Bülow?,SELECT ?value WHERE { wd:Q60113 p:P39 ?s . ?s ps:P39 wd:Q7618907 . ?s pq:P1366 ?value}
+"Who was Carrier Fisher's spouse prior to their divorce on Jan 1st, 1983","SELECT ?obj WHERE { wd:Q108941 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1984')) }"
+Who is the patron saint of Wales?,select distinct ?obj where { wd:Q25 wdt:P417 ?obj . ?obj wdt:P31 wd:Q5 }
+How many Berber ethnic groups are there?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P172 wd:Q45315 }
+When was Isaac stern completed his education at San Francisco conservatory of Music?,SELECT ?value WHERE { wd:Q311317 p:P69 ?s . ?s ps:P69 wd:Q2034815 . ?s pq:P582 ?value}
+Where was Romanesque art founded?,SELECT ?answer WHERE { wd:Q46805 wdt:P276 ?X . ?X wdt:P2184 ?answer}
+What is the domain of Lucien Maxant's daughter?,SELECT ?answer WHERE { wd:Q21403222 wdt:P22 ?X . ?X wdt:P101 ?answer}
+What is the set in location of Anabasis whose diplomatic relation is Portugal?,SELECT ?answer WHERE { wd:Q73112 wdt:P840 ?answer . ?answer wdt:P530 wd:Q45}
+How many visitors per year does British Museum get in 2016?,"SELECT ?obj WHERE { wd:Q6373 p:P1174 ?s . ?s ps:P1174 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2016')) }"
+Name the curent leader of UNESCO,select distinct ?obj where { wd:Q7809 wdt:P488 ?obj . ?obj wdt:P31 wd:Q5 }
+What {has rural cities} of {national of} of {Fatai Rolling Dollar} ?,SELECT ?answer WHERE { wd:Q15993448 wdt:P27 ?X . ?X wdt:P150 ?answer}
+who subsidiary company of made by of Apple II ?,SELECT ?answer WHERE { wd:Q3017175 wdt:P176 ?X . ?X wdt:P355 ?answer}
+What are the group of organisms known by one particular common name which start with the letter w,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q55983715 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'w')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the measurement of introversion and extroversion that was established in 1943-0-0?,"SELECT ?answer WHERE { wd:Q127588 wdt:P1880 ?answer . ?answer wdt:P571 ?x FILTER(contains(YEAR(?x),'1943'))}"
+What is the rank of a taxon parent of Sirenia?,SELECT ?answer WHERE { wd:Q25431 wdt:P171 ?X . ?X wdt:P105 ?answer}
+,select distinct ?obj where { wd:Q864855 wdt:P822 ?obj . ?obj wdt:P31 wd:Q515001 }
+Who is the oldest citizen of Morocco?,select ?ent where { ?ent wdt:P31 wd:Q5 . ?ent wdt:P3629 ?obj . ?ent wdt:P27 wd:Q1028 } ORDER BY DESC(?obj)LIMIT 5
+Who has a diplomatic relation with India and holds the loyalty of Jose Miguel Carrera del Pica?,SELECT ?answer WHERE { wd:Q734977 wdt:P945 ?answer . ?answer wdt:P530 wd:Q668}
+What is the name of the inventor or discoverer of Messier 87 whose gender is male?,SELECT ?answer WHERE { wd:Q14041 wdt:P61 ?answer . ?answer wdt:P21 wd:Q6581097}
+Who was Claude Francois's partner in 1964?,"SELECT ?obj WHERE { wd:Q365985 p:P451 ?s . ?s ps:P451 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1964')) }"
+What file format is the environment of Grand Theft Auto III?,SELECT ?answer WHERE { wd:Q149106 wdt:P400 ?X . ?X wdt:P1072 ?answer}
+Who owns the paintings of Paula Hoegh-Guldberg?,SELECT ?answer WHERE { wd:Q47508083 wdt:P1830 ?X . ?X wdt:P180 ?answer}
+When was Edward the Elder crowned king of England?,SELECT ?value WHERE { wd:Q187114 p:P39 ?s . ?s ps:P39 wd:Q116 . ?s pq:P580 ?value}
+What was Matthew McConaughey nominated for in 2014?,"SELECT ?obj WHERE { wd:Q188955 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2014')) }"
+What was Richard Feynman nominated for in 1960?,"SELECT ?obj WHERE { wd:Q39246 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1960')) }"
+When was Christopher Plummer nominated for the Tony award for Best actor in a play.,SELECT ?value WHERE { wd:Q190523 p:P1411 ?s . ?s ps:P1411 wd:Q1445521 . ?s pq:P585 ?value}
+What position and team did Babe Ruth play for?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q213812 wdt:P54 ?ans_1 . wd:Q213812 wdt:P413 ?ans_2 }
+What work is Zaha Hadid known for in addition to Capital Hill Residence?,SELECT ?value WHERE { wd:Q47780 p:P800 ?s . ?s ps:P800 wd:Q20127495 . ?s pq:P127 ?value}
+How many are inspired by Roman mythology?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P941 wd:Q122173 }
+What is the population of Rimini?,"SELECT ?value WHERE { wd:Q13369 p:P1082 ?s . ?s ps:P1082 ?x filter(contains(?x,'148908')) . ?s pq:P459 ?value}"
+What language was the Superman from work created on?,SELECT ?answer WHERE { wd:Q79015 wdt:P1441 ?X . ?X wdt:P364 ?answer}
+The Coca-Cola company manufactures which drink?,select distinct ?sbj where { ?sbj wdt:P176 wd:Q3295867 . ?sbj wdt:P31 wd:Q40050 }
+"Do you know who the father of the most famous human of the 1800's, Pablo Picasso is?",select distinct ?sbj where { ?sbj wdt:P22 wd:Q5593 . ?sbj wdt:P31 wd:Q5 }
+What is the Catch-22 edition and cover?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q278208 wdt:P747 ?ans_1 . wd:Q278208 wdt:P736 ?ans_2 }
+How many instance the taxon has the highest observed lifespan?,select ?ent where { ?ent wdt:P31 wd:Q16521 . ?ent wdt:P4214 ?obj . ?ent wdt:P31 wd:Q16521} ORDER BY ASC(?obj)LIMIT 5
+"""Where has arrondissements called Acre and toponym is Joaquim Francisco de Assis Brasil?""",SELECT ?answer WHERE { wd:Q40780 wdt:P150 ?answer . ?answer wdt:P138 wd:Q9012140}
+What military rank is Philippe Pétain?,SELECT (COUNT(?obj) AS ?value ) { wd:Q5721 wdt:P410 ?obj }
+Which {Q48460} {field of this profession} is {housekeeper} ?,SELECT ?answer WHERE { wd:Q2596569 wdt:P425 ?X . ?X wdt:P1036 ?answer}
+When was Joan Rivers born and what was she nominated for?,SELECT ?answer WHERE { wd:Q240933 wdt:P1411 ?X . ?X wdt:P571 ?answer}
+The Zamboanga Peninsula is divided into how many wards?,SELECT ?answer WHERE { wd:Q13682 wdt:P131 ?X . ?X wdt:P150 ?answer}
+What is the legislative body for the city of Bucharest?,select distinct ?sbj where { ?sbj wdt:P1001 wd:Q19660 . ?sbj wdt:P31 wd:Q3154693 }
+TELL ME HISTORICAL EVENT WHOSE NAME HAS THE WORD WAR IN IT.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q13418847 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'war')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+In which city of New York was George Burns born?,SELECT ?obj WHERE { wd:Q344793 p:P19 ?s . ?s ps:P19 ?obj . ?s pq:P131 wd:Q1384 }
+tell  me religious text that studied by Old Testament theology starts with o,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q179461 . ?sbj wdt:P2579 wd:Q7085202 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'o')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which {regulatory body} of {language of expression} of {Juan José Flores} ?,SELECT ?answer WHERE { wd:Q554933 wdt:P1412 ?X . ?X wdt:P1018 ?answer}
+When was Selena received the Grammy Award for Best Mexian/Mexican-American award?,SELECT ?value WHERE { wd:Q23543 p:P166 ?s . ?s ps:P166 wd:Q5593831 . ?s pq:P585 ?value}
+What genre is the score of Inazuma Eleven GO vs. Danbōru Senki W in?,SELECT ?answer WHERE { wd:Q5237953 wdt:P86 ?X . ?X wdt:P136 ?answer}
+What is the notation and parent astronomical body of the Sun?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q525 wdt:P913 ?ans_1 . wd:Q525 wdt:P397 ?ans_2 }
+Where in the continent of the Antarctic Peninsula is the discoverer Fabian Gottlieb von Bellingshausen?,SELECT ?answer WHERE { wd:Q185605 wdt:P30 ?answer . ?answer wdt:P61 wd:Q76754}
+"What award did Danny Kaye receive on February 2, 1986?","SELECT ?obj WHERE { wd:Q213425 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1986')) }"
+Who is the pianist artist of The Rise and Fall of Ziggy Stardust and The Spiders from Mars?,SELECT ?answer WHERE { wd:Q682846 wdt:P175 ?answer . ?answer wdt:P106 wd:Q486748}
+How is inertia measured?,select distinct ?obj where { wd:Q122508 wdt:P1880 ?obj . ?obj wdt:P31 wd:Q286017 }
+Who are the inhabitants of the main topic of the History of Bangladesh?,SELECT ?answer WHERE { wd:Q839809 wdt:P1269 ?X . ?X wdt:P1082 ?answer}
+In what subject did Linda Nochlin major while attending New York University Institute of Fine Arts?,SELECT ?value WHERE { wd:Q434478 p:P69 ?s . ?s ps:P69 wd:Q3339070 . ?s pq:P812 ?value}
+WHICH IS THE FAMILY OF ISOMERIC COMPOUNDS CONTAINS WORD TRIOXANES IN THERI NAME,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q15711994 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'trioxanes')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+When did Lawrence Summers stop being the United States Secretary of the Treasury?,SELECT ?value WHERE { wd:Q317953 p:P39 ?s . ?s ps:P39 wd:Q4215834 . ?s pq:P582 ?value}
+"What award did Nikolay Cherkasov win on February 26, 1947?","SELECT ?obj WHERE { wd:Q713014 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1947')) }"
+What position did George II of Great Britain hold before he was replaced by George III of Great Britain?,SELECT ?obj WHERE { wd:Q127318 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1365 wd:Q131981 }
+Who replaced the position held by Bill Clinton as President of the United States?,SELECT ?value WHERE { wd:Q1124 p:P39 ?s . ?s ps:P39 wd:Q11696 . ?s pq:P1365 ?value}
+At what point in time did Rigoberta Menchu tum receive the Nobel Peace Prize?,SELECT ?value WHERE { wd:Q188620 p:P166 ?s . ?s ps:P166 wd:Q35637 . ?s pq:P585 ?value}
+Name the concept in physics which caused the Big Bang.,select distinct ?obj where { wd:Q323 wdt:P1542 ?obj . ?obj wdt:P31 wd:Q33104303 }
+The Knights Templar has how many religious orders?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P611 wd:Q41300 }
+Which non-profit organization runs Wikipedia?,select distinct ?obj where { wd:Q52 wdt:P137 ?obj . ?obj wdt:P31 wd:Q163740 }
+In what area was Gothenburg during the end of 2010?,"SELECT ?obj WHERE { wd:Q25287 p:P2046 ?s . ?s ps:P2046 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2010')) }"
+What is the country and the World Heritage criteria of Taj_Mahal ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q9141 wdt:P17 ?ans_1 . wd:Q9141 wdt:P2614 ?ans_2 }
+When did Ossie Davis graduate from Howard University?,SELECT ?value WHERE { wd:Q515632 p:P69 ?s . ?s ps:P69 wd:Q1068752 . ?s pq:P582 ?value}
+What are the diagnostic test which start with the letter z,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1762591 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'z')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which is the border seat of Hafun Fishing Company?,SELECT ?answer WHERE { wd:Q18347946 wdt:P159 ?X . ?X wdt:P47 ?answer}
+What is the minimum viable temperature for a strain with a biosafety level of 1?,select ?ent where { ?ent wdt:P31 wd:Q855769 . ?ent wdt:P3251 ?obj . ?ent wdt:P1604 wd:Q18396533 } ORDER BY DESC(?obj)LIMIT 5
+What did FC Barcelona receive an award and nomination for?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q7156 wdt:P1411 ?ans_1 . wd:Q7156 wdt:P166 ?ans_2 }
+What finite group has the highest cardinality?,select ?ent where { ?ent wdt:P31 wd:Q1057968 . ?ent wdt:P1164 ?obj } ORDER BY DESC(?obj)LIMIT 5
+when did alfred brendel received award at the time of 1992-1-1?,"SELECT ?obj WHERE { wd:Q84148 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1992')) }"
+Who is the {public educational institution of the United States} for {educated at} of {Phil Hartman},select distinct ?obj where { wd:Q366834 wdt:P69 ?obj . ?obj wdt:P31 wd:Q23002039 }
+Which is the Wikimedia category for the associated category of people of Istanbul?,select distinct ?obj where { wd:Q406 wdt:P1792 ?obj . ?obj wdt:P31 wd:Q4167836 }
+What countries does Renata Tebaldi hold citizenship with?,SELECT ?answer WHERE { wd:Q229179 wdt:P27 ?X . ?X wdt:P150 ?answer}
+"Name a fictional detective character inspired by The Shadow that contains the word ""Batman"" in its name","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q3656924 . ?sbj wdt:P941 wd:Q967116 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'batman')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who won the 1971 Wimbledon Women's Singles Championship?,SELECT ?answer WHERE { wd:Q600458 wdt:P155 ?X . ?X wdt:P1346 ?answer}
+When did Johannes V Jensen cease to reside in Viborg?,SELECT ?value WHERE { wd:Q159552 p:P551 ?s . ?s ps:P551 wd:Q21176 . ?s pq:P582 ?value}
+Name the highest snowfall total from a blizzard located in the administrative territorial entity of Wisconsin?,select ?ent where { ?ent wdt:P31 wd:Q205418 . ?ent wdt:P3036 ?obj . ?ent wdt:P131 wd:Q1537 } ORDER BY DESC(?obj)LIMIT 5
+Who was he leader of Niamey until 1970?,"SELECT ?obj WHERE { wd:Q3674 p:P6 ?s . ?s ps:P6 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1970')) }"
+Andres Manuel Lopez Obrador held what  position in 0-0-2017?,"SELECT ?obj WHERE { wd:Q318508 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'2017')) }"
+When was Jacobus Henricus van 't Hoff awarded the Helmoltzh Medal?,SELECT ?value WHERE { wd:Q102822 p:P166 ?s . ?s ps:P166 wd:Q1562616 . ?s pq:P585 ?value}
+What is the occurrence with the lowest quantity whose facet of is Wikidata ?,select ?ent where { ?ent wdt:P31 wd:Q1190554 . ?ent wdt:P1114 ?obj . ?ent wdt:P1269 wd:Q2013} ORDER BY ASC(?obj)LIMIT 5
+What position does Iván Duque Márquez hold at 2018-4-10?,"SELECT ?obj WHERE { wd:Q17478000 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'2018')) }"
+Who is the developer of Internet Protocol and what is the edition?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q8795 wdt:P747 ?ans_1 . wd:Q8795 wdt:P178 ?ans_2 }
+who academic major for field of work of Noam Chomsky?,select distinct ?obj where { wd:Q9049 wdt:P101 ?obj . ?obj wdt:P31 wd:Q4671286 }
+The Treaty of Versailles was signed by which diplomats?,SELECT ?answer WHERE { wd:Q8736 wdt:P1891 ?X . ?X wdt:P530 ?answer}
+What are the jurisdiction which start with the letter v,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q471855 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'v')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What is the sports season of the Chirripo National Park mountain range?,SELECT ?answer WHERE { wd:Q3244192 wdt:P4552 ?X . ?X wdt:P2348 ?answer}
+Mention the Russian Orthodox Church's eastern orthodox church body.,select distinct ?sbj where { ?sbj wdt:P140 wd:Q60995 . ?sbj wdt:P31 wd:Q2031836 }
+Tell me type of wood whose name has the word zebrawood in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q1493054 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'zebrawood')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"What is the musical score by Toccata and Fugue in D minor, BMV 565 who is a disciple of Johanna Fiedrich Agricola?",SELECT ?answer WHERE { wd:Q392734 wdt:P86 ?answer . ?answer wdt:P802 wd:Q60965}
+What position did Ferdinand Marcos hold when he was replaced by Corazon Aquino?,SELECT ?obj WHERE { wd:Q1463 p:P39 ?s . ?s ps:P39 ?obj . ?s pq:P1366 wd:Q1480 }
+What are thevideo game genre which start with the letter v,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q659563 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'v')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+"Name the Kyoto, Japan's prefecture related to the administrative territory",select distinct ?obj where { wd:Q34600 wdt:P131 ?obj . ?obj wdt:P31 wd:Q50337 }
+"Who was elected rector of Leipzig University on December 2, 1409?","SELECT ?obj WHERE { wd:Q154804 p:P1075 ?s . ?s ps:P1075 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1409')) }"
+What was founded next to Krafwerk?,SELECT ?answer WHERE { wd:Q44892 wdt:P740 ?X . ?X wdt:P47 ?answer}
+"He has three kids; Orghana,Ariq Böka, and Toqoqan.",SELECT ?answer WHERE { wd:Q7199764 wdt:P22 ?X . ?X wdt:P40 ?answer}
+The name for the information leark for Juan Carlos I's significant event is what?,select distinct ?obj where { wd:Q19943 wdt:P793 ?obj . ?obj wdt:P31 wd:Q2904148 }
+What is the time-weighted average exposure limit for arsenic?,SELECT (COUNT(?obj) AS ?value ) { wd:Q871 wdt:P2404 ?obj }
+"What is the biological sex of Curtis Warren, also known as 男?","SELECT ?answer WHERE { wd:Q3699686 wdt:P21 ?answer . ?answer wdt:P1813 ?x FILTER(contains(?x,'男'))}"
+"What is the isotope of hydrogen that follows deuterium that contains the word ""tritium"" in its name","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q466603 . ?sbj wdt:P155 wd:Q102296 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'tritium')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What edition of the Iliad is French?,SELECT ?obj WHERE { wd:Q8275 p:P747 ?s . ?s ps:P747 ?obj . ?s pq:P407 wd:Q150 }
+Who is starring in the film series of Souls of the Departed?,SELECT ?answer WHERE { wd:Q23022717 wdt:P179 ?X . ?X wdt:P161 ?answer}
+Who is the diplomat of Serbia?,SELECT ?answer WHERE { wd:Q403 wdt:P530 ?X . ?X wdt:P463 ?answer}
+What is the start time for the Santo Tomas de Aquinas feast on March 7th?,SELECT ?value WHERE { wd:Q9438 p:P841 ?s . ?s ps:P841 wd:Q2394 . ?s pq:P580 ?value}
+What is Salman of Saudi Arabia's hereditary title?,select distinct ?obj where { wd:Q367825 wdt:P97 ?obj . ?obj wdt:P31 wd:Q5737899 }
+How many sidekicks does the Batman have?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P2546 wd:Q2695156 }
+What plays did the co-husband of Adéla Pollertová write?,SELECT ?answer WHERE { wd:Q5331945 wdt:P1038 ?X . ?X wdt:P641 ?answer}
+Tell me comedic genre whose name has the word sitcom in it name,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q5151404 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'sitcom')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What was Bewitched nominated for in 1967?,"SELECT ?obj WHERE { wd:Q1044635 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1967')) }"
+Tell me about the land registration commissioned by William the Conqueror.,select distinct ?sbj where { ?sbj wdt:P88 wd:Q37594 . ?sbj wdt:P31 wd:Q672598 }
+Hungary has what number of time zones contained within it?,SELECT (COUNT(?obj) AS ?value ) { wd:Q28 wdt:P421 ?obj }
+When was René Cassin in nomination for the Nobel Peace Prize?,SELECT ?value WHERE { wd:Q232873 p:P1411 ?s . ?s ps:P1411 wd:Q35637 . ?s pq:P585 ?value}
+Tell me end time for Grodno has country as Second Polish Republic ?,SELECT ?value WHERE { wd:Q181376 p:P17 ?s . ?s ps:P17 wd:Q207272 . ?s pq:P582 ?value}
+How many names are there for Kang Youwei?,SELECT (COUNT(?obj) AS ?value ) { wd:Q360135 wdt:P1787 ?obj }
+Who did Jeff Goldblum marry in November 1987?,"SELECT ?obj WHERE { wd:Q106706 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P580 ?x filter(contains(YEAR(?x),'1987')) }"
+What is the mascot of Georgetown University?,select distinct ?obj where { wd:Q333886 wdt:P822 ?obj . ?obj wdt:P31 wd:Q386208 }
+Who was Robert Shaw married to until 1975?,"SELECT ?obj WHERE { wd:Q313727 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1975')) }"
+What country is next to Tim Conway?,SELECT ?answer WHERE { wd:Q1304952 wdt:P27 ?X . ?X wdt:P47 ?answer}
+Which weapon model has the longest field of view?,select ?ent where { ?ent wdt:P31 wd:Q15142894 . ?ent wdt:P4036 ?obj } ORDER BY DESC(?obj)LIMIT 5
+What number of interactions does an up quark have?,SELECT (COUNT(?obj) AS ?value ) { wd:Q6732 wdt:P517 ?obj }
+What scientific law did Dimitri Mendeleyev invent?,select distinct ?sbj where { ?sbj wdt:P61 wd:Q9106 . ?sbj wdt:P31 wd:Q408891 }
+Who follows the Catholic Church?,select distinct ?sbj where { ?sbj wdt:P140 wd:Q9592 . ?sbj wdt:P31 wd:Q5 }
+Russian is the language of work or name for what operating system?,select distinct ?sbj where { ?sbj wdt:P407 wd:Q7737 . ?sbj wdt:P31 wd:Q9135 }
+Who is the operator of business at CBS?,select distinct ?obj where { wd:Q43380 wdt:P137 ?obj . ?obj wdt:P31 wd:Q4830453 }
+Who is starring in Gary the Monster?,SELECT ?answer WHERE { wd:Q50809801 wdt:P1441 ?X . ?X wdt:P161 ?answer}
+Who died in Rome?,select distinct ?sbj where { ?sbj wdt:P20 wd:Q220 . ?sbj wdt:P31 wd:Q5 }
+Where {has local government areas} and {location of work} of {Benedict XV} ?,SELECT ?answer WHERE { wd:Q4448 wdt:P937 ?X . ?X wdt:P150 ?answer}
+When did Cornel West receive his Lannan Cultural Freedom Prize?,SELECT ?value WHERE { wd:Q712469 p:P166 ?s . ?s ps:P166 wd:Q27021071 . ?s pq:P585 ?value}
+What are the subsidiary entities of the United States Department of the Air Force's parent unit?,SELECT ?answer WHERE { wd:Q1465252 wdt:P749 ?X . ?X wdt:P355 ?answer}
+Which vessel has the most volume that was assembled in New Quay.,select ?ent where { ?ent wdt:P31 wd:Q848944 . ?ent wdt:P2234 ?obj . ?ent wdt:P1071 wd:Q2039004 } ORDER BY DESC(?obj)LIMIT 5
+What is the end time named after Oghuz Khagan that June has?,SELECT ?value WHERE { wd:Q120 p:P138 ?s . ?s ps:P138 wd:Q2118293 . ?s pq:P582 ?value}
+What city in Mumbai houses it's administrative body?,select distinct ?obj where { wd:Q1156 wdt:P190 ?obj . ?obj wdt:P31 wd:Q1093829 }
+What country was abolished in Kirovohrad oblast in the year 1991?,"SELECT ?obj WHERE { wd:Q180981 p:P17 ?s . ?s ps:P17 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1991')) }"
+WHat is the highest position in theUnited States Environmental Protection Agency ?,select distinct ?obj where { wd:Q460173 wdt:P2388 ?obj . ?obj wdt:P31 wd:Q4164871 }
+Tell me type of number  whose name has the word number in it.,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q47460393 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'number')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who gave the {on harbour} of {player} of {Gallipoli campaign} ?,SELECT ?answer WHERE { wd:Q164983 wdt:P710 ?X . ?X wdt:P206 ?answer}
+For what John Elway was in nomination in the year 1992?,"SELECT ?obj WHERE { wd:Q432931 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1992')) }"
+Which country has the highest nominal GDP per capita?,select ?ent where { ?ent wdt:P31 wd:Q6256 . ?ent wdt:P2132 ?obj } ORDER BY DESC(?obj)LIMIT 5
+"Name the developer of Fresnel lens, who graduated from Lycee Malherbe.",SELECT ?answer WHERE { wd:Q14672 wdt:P61 ?answer . ?answer wdt:P69 wd:Q3268828}
+What is the {sexual orientation} and the {sex or gender} of {Angela_Davis} ?,SELECT ?ans_1 ?ans_2 WHERE { wd:Q160456 wdt:P91 ?ans_1 . wd:Q160456 wdt:P21 ?ans_2 }
+For what work did Isaac Asimov receive the Nebula Award for Best Novel?,SELECT ?value WHERE { wd:Q34981 p:P166 ?s . ?s ps:P166 wd:Q266012 . ?s pq:P1686 ?value}
+When did Bob Woodward receive the award Worth Bingham Prize?,SELECT ?value WHERE { wd:Q312782 p:P166 ?s . ?s ps:P166 wd:Q8037157 . ?s pq:P585 ?value}
+How much product materials are being produced by the Huawei} ?,SELECT (COUNT(?obj) AS ?value ) { wd:Q160120 wdt:P1056 ?obj }
+When did Seoul become a sister city with Tokyo?,SELECT ?value WHERE { wd:Q8684 p:P190 ?s . ?s ps:P190 wd:Q1490 . ?s pq:P580 ?value}
+Which was the person as doctoral student of Galileo Galilei?,select distinct ?sbj where { ?sbj wdt:P185 wd:Q307 . ?sbj wdt:P31 wd:Q5 }
+What is Kabul the capital of?,SELECT (COUNT(?obj) AS ?value ) { wd:Q5838 wdt:P1376 ?obj }
+Which is {award received} by {pupil} of {Enrico Fermi} ?,SELECT ?answer WHERE { wd:Q8753 wdt:P802 ?X . ?X wdt:P166 ?answer}
+Which is the common-law wife of dedicatee of Temple of Isthmia?,SELECT ?answer WHERE { wd:Q18385210 wdt:P825 ?X . ?X wdt:P451 ?answer}
+"""What administrative unit did Arthur M. Schlesinger serve as an alumna of Exeter?""",SELECT ?answer WHERE { wd:Q435195 wdt:P69 ?answer . ?answer wdt:P131 wd:Q990504}
+What award did Robin Williams and Christine Baranski receive together?,SELECT ?obj WHERE { wd:Q83338 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P1706 wd:Q229134 }
+Tell me the series ordinal for John Greenleaf Whittier has given name as Greenleaf?,SELECT ?value WHERE { wd:Q458372 p:P735 ?s . ?s ps:P735 wd:Q42302286 . ?s pq:P1545 ?value}
+What body of water borders B-29 Serial No. 45-21847?,SELECT ?answer WHERE { wd:Q55024836 wdt:P206 ?X . ?X wdt:P4792 ?answer}
+Which is the memoir that is the notable work of Hillary Clinton?,select distinct ?obj where { wd:Q6294 wdt:P800 ?obj . ?obj wdt:P31 wd:Q112983 }
+Which video game company developed Pong?,select distinct ?obj where { wd:Q216293 wdt:P178 ?obj . ?obj wdt:P31 wd:Q210167 }
+What award did José Echegaray get in 1911?,"SELECT ?obj WHERE { wd:Q127349 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'1911')) }"
+For what movie was Otto Preminger nominated for Academy Award for Best Director?,SELECT ?value WHERE { wd:Q52997 p:P1411 ?s . ?s ps:P1411 wd:Q103360 . ?s pq:P805 ?value}
+Which is {heritage designation} of {administrative centre} {Kingdom of Kongo} ?,SELECT ?answer WHERE { wd:Q796583 wdt:P36 ?X . ?X wdt:P1435 ?answer}
+Who replaced Samuel Taliaferro Rayburn as Dean of the United States House of Representatives?,SELECT ?value WHERE { wd:Q1378052 p:P39 ?s . ?s ps:P39 wd:Q5246680 . ?s pq:P1365 ?value}
+When was Ganja a part of Azerbaijan?,SELECT ?value WHERE { wd:Q131290 p:P131 ?s . ?s ps:P131 wd:Q227 . ?s pq:P580 ?value}
+Who in starring film High Noon has died from kidney failure?,SELECT ?answer WHERE { wd:Q245208 wdt:P161 ?answer . ?answer wdt:P509 wd:Q476921}
+Which is the mathematical concept which contains the word ultrafinitism in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q24034552 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'ultrafinitism')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which is the currency for the country of Biafra?,select distinct ?sbj where { ?sbj wdt:P17 wd:Q178469 . ?sbj wdt:P31 wd:Q8142 }
+When did Chongqing and Mpumalanga become sister cities?,SELECT ?value WHERE { wd:Q11725 p:P190 ?s . ?s ps:P190 wd:Q132410 . ?s pq:P580 ?value}
+What was the co-founder of Walsh University found guilty of?,SELECT ?answer WHERE { wd:Q3444269 wdt:P112 ?X . ?X wdt:P1399 ?answer}
+what is executive director of developed by of ios?,SELECT ?answer WHERE { wd:Q48493 wdt:P178 ?X . ?X wdt:P169 ?answer}
+How many sources of energy are natural gas?,SELECT (COUNT(?sub) AS ?value ) { ?sub wdt:P618 wd:Q40858 }
+What was Piers Anthony nominated for that's work is the Crewel Lye: A Caustic Yarn?,SELECT ?obj WHERE { wd:Q559409 p:P1411 ?s . ?s ps:P1411 ?obj . ?s pq:P1686 wd:Q5184847 }
+"The stock exchange rate of Nintendo is ticker symbol, 7974","SELECT ?obj WHERE { wd:Q8093 p:P414 ?s . ?s ps:P414 ?obj . ?s pq:P249 ?x filter(contains(?x,'7974')) }"
+What is the subtopic of Universal Decimal Classification 391?,"SELECT ?answer WHERE { wd:Q12684 wdt:P1269 ?answer . ?answer wdt:P1190 ?x FILTER(contains(?x,'391'))}"
+Who did Alfred Kinsey divorce in 1956?,"SELECT ?obj WHERE { wd:Q186561 p:P26 ?s . ?s ps:P26 ?obj . ?s pq:P582 ?x filter(contains(YEAR(?x),'1956')) }"
+What did Christie Brinkley's husband say,SELECT ?answer WHERE { wd:Q253476 wdt:P26 ?X . ?X wdt:P737 ?answer}
+Purdue University is the parent organization of what?,select distinct ?sbj where { ?sbj wdt:P749 wd:Q217741 . ?sbj wdt:P31 wd:Q43229 }
+When did Pausanias die?,SELECT ?obj WHERE { wd:Q192931 p:P570 ?s . ?s ps:P570 ?obj . ?s pq:P1480 wd:Q5727902 }
+Tell me which is the administrative territorial entity of Kenya which contains the word nairobi in it's name?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q3976641 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'nairobi')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Who uses Pro Evolution Soccer?,SELECT ?answer WHERE { wd:Q467374 wdt:P400 ?X . ?X wdt:P1414 ?answer}
+Who competed in Doc Holliday?,SELECT ?answer WHERE { wd:Q44987 wdt:P1344 ?X . ?X wdt:P710 ?answer}
+When did Jules Verne attend lycee Georges-Clemenceau?,SELECT ?value WHERE { wd:Q33977 p:P69 ?s . ?s ps:P69 wd:Q3268696 . ?s pq:P580 ?value}
+Which is the dissolution of an administrative territorial entity that has Belavezha Accords as main regulatory text and whose name contains the word dissolution?,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q18603729 . ?sbj wdt:P92 wd:Q76986 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'dissolution')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+Which billionaire has the highest net worth estimate?,select ?ent where { ?ent wdt:P31 wd:Q1062083 . ?ent wdt:P2218 ?obj } ORDER BY DESC(?obj)LIMIT 5
+"Who is also known as Gürcü Hatun and contains the word ""rumi"" in its name","SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q5 . ?sbj wdt:P3342 wd:Q2915023 . ?sbj rdfs:label ?sbj_label . FILTER(CONTAINS(lcase(?sbj_label), 'rumi')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+In which serial ordinal was Eudoxia Lopukhina was spouse of Peter the Great?,SELECT ?value WHERE { wd:Q8479 p:P26 ?s . ?s ps:P26 wd:Q240145 . ?s pq:P1545 ?value}
+What Microsoft Mobile smartphone has the largest battery capacity ?,select ?ent where { ?ent wdt:P31 wd:Q19723451 . ?ent wdt:P4140 ?obj . ?ent wdt:P176 wd:Q16538568 } ORDER BY DESC(?obj)LIMIT 5
+What is coordinate location  of  Elbe  that  applies to part  is  river mouth ?,SELECT ?obj WHERE { wd:Q1644 p:P625 ?s . ?s ps:P625 ?obj . ?s pq:P518 wd:Q1233637 }
+"What is the name of the ""sister city"" tied to Kansas City, which is located in the county of Seville Province?",SELECT ?answer WHERE { wd:Q41819 wdt:P190 ?answer . ?answer wdt:P1376 wd:Q95088}
+What is the hight of  the studio where filmed of The Deer Hunte ?,SELECT ?answer WHERE { wd:Q201674 wdt:P915 ?X . ?X wdt:P2044 ?answer}
+Which {category of associated people} of {sister city} of {Zhuhai} ?,SELECT ?answer WHERE { wd:Q59095 wdt:P190 ?X . ?X wdt:P1792 ?answer}
+which song starts with the letter w,"SELECT DISTINCT ?sbj ?sbj_label WHERE { ?sbj wdt:P31 wd:Q7366 . ?sbj rdfs:label ?sbj_label . FILTER(STRSTARTS(lcase(?sbj_label), 'w')) . FILTER (lang(?sbj_label) = 'en') } LIMIT 25"
+What was the award of Trondheim received in 2008?,"SELECT ?obj WHERE { wd:Q25804 p:P166 ?s . ?s ps:P166 ?obj . ?s pq:P585 ?x filter(contains(YEAR(?x),'2008')) }"
