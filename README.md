@@ -29,7 +29,7 @@
 
 5. **Fine-Tuning the Language Model**
 
-   I fine-tuned GPT-4.1 Mini on the training dataset to enable:
+   I fine-tuned GPT-4.1 Mini with OpenAI API supervised fine-tuning (SFT) on the training dataset to enable:
 
    * Translation of natural language questions into valid SPARQL queries
    * Accurate mapping of entity identifiers from Wikidata
